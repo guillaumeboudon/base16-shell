@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Rebecca scheme by Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
 
+export BASE16_COLOR_00="292a44"
+export BASE16_COLOR_01="663399"
+export BASE16_COLOR_02="383a62"
+export BASE16_COLOR_03="666699"
+export BASE16_COLOR_04="a0a0c5"
+export BASE16_COLOR_05="f1eff8"
+export BASE16_COLOR_06="ccccff"
+export BASE16_COLOR_07="53495d"
+export BASE16_COLOR_08="a0a0c5"
+export BASE16_COLOR_09="efe4a1"
+export BASE16_COLOR_0A="ae81ff"
+export BASE16_COLOR_0B="6dfedf"
+export BASE16_COLOR_0C="8eaee0"
+export BASE16_COLOR_0D="2de0a7"
+export BASE16_COLOR_0E="7aa5ff"
+export BASE16_COLOR_0F="ff79c6"
+
 color00="29/2a/44" # Base 00 - Black
 color01="a0/a0/c5" # Base 08 - Red
 color02="6d/fe/df" # Base 0B - Green

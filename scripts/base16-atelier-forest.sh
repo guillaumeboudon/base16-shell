@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atelier Forest scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
+export BASE16_COLOR_00="1b1918"
+export BASE16_COLOR_01="2c2421"
+export BASE16_COLOR_02="68615e"
+export BASE16_COLOR_03="766e6b"
+export BASE16_COLOR_04="9c9491"
+export BASE16_COLOR_05="a8a19f"
+export BASE16_COLOR_06="e6e2e0"
+export BASE16_COLOR_07="f1efee"
+export BASE16_COLOR_08="f22c40"
+export BASE16_COLOR_09="df5320"
+export BASE16_COLOR_0A="c38418"
+export BASE16_COLOR_0B="7b9726"
+export BASE16_COLOR_0C="3d97b8"
+export BASE16_COLOR_0D="407ee7"
+export BASE16_COLOR_0E="6666ea"
+export BASE16_COLOR_0F="c33ff3"
+
 color00="1b/19/18" # Base 00 - Black
 color01="f2/2c/40" # Base 08 - Red
 color02="7b/97/26" # Base 0B - Green

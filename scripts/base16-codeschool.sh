@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Codeschool scheme by blockloop
 
+export BASE16_COLOR_00="232c31"
+export BASE16_COLOR_01="1c3657"
+export BASE16_COLOR_02="2a343a"
+export BASE16_COLOR_03="3f4944"
+export BASE16_COLOR_04="84898c"
+export BASE16_COLOR_05="9ea7a6"
+export BASE16_COLOR_06="a7cfa3"
+export BASE16_COLOR_07="b5d8f6"
+export BASE16_COLOR_08="2a5491"
+export BASE16_COLOR_09="43820d"
+export BASE16_COLOR_0A="a03b1e"
+export BASE16_COLOR_0B="237986"
+export BASE16_COLOR_0C="b02f30"
+export BASE16_COLOR_0D="484d79"
+export BASE16_COLOR_0E="c59820"
+export BASE16_COLOR_0F="c98344"
+
 color00="23/2c/31" # Base 00 - Black
 color01="2a/54/91" # Base 08 - Red
 color02="23/79/86" # Base 0B - Green

@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atelier Plateau Light scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
+export BASE16_COLOR_00="f4ecec"
+export BASE16_COLOR_01="e7dfdf"
+export BASE16_COLOR_02="8a8585"
+export BASE16_COLOR_03="7e7777"
+export BASE16_COLOR_04="655d5d"
+export BASE16_COLOR_05="585050"
+export BASE16_COLOR_06="292424"
+export BASE16_COLOR_07="1b1818"
+export BASE16_COLOR_08="ca4949"
+export BASE16_COLOR_09="b45a3c"
+export BASE16_COLOR_0A="a06e3b"
+export BASE16_COLOR_0B="4b8b8b"
+export BASE16_COLOR_0C="5485b6"
+export BASE16_COLOR_0D="7272ca"
+export BASE16_COLOR_0E="8464c4"
+export BASE16_COLOR_0F="bd5187"
+
 color00="f4/ec/ec" # Base 00 - Black
 color01="ca/49/49" # Base 08 - Red
 color02="4b/8b/8b" # Base 0B - Green

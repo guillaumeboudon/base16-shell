@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # XCode Dusk scheme by Elsa Gonsiorowski (https://github.com/gonsie)
 
+export BASE16_COLOR_00="282B35"
+export BASE16_COLOR_01="3D4048"
+export BASE16_COLOR_02="53555D"
+export BASE16_COLOR_03="686A71"
+export BASE16_COLOR_04="7E8086"
+export BASE16_COLOR_05="939599"
+export BASE16_COLOR_06="A9AAAE"
+export BASE16_COLOR_07="BEBFC2"
+export BASE16_COLOR_08="B21889"
+export BASE16_COLOR_09="786DC5"
+export BASE16_COLOR_0A="438288"
+export BASE16_COLOR_0B="DF0002"
+export BASE16_COLOR_0C="00A0BE"
+export BASE16_COLOR_0D="790EAD"
+export BASE16_COLOR_0E="B21889"
+export BASE16_COLOR_0F="C77C48"
+
 color00="28/2B/35" # Base 00 - Black
 color01="B2/18/89" # Base 08 - Red
 color02="DF/00/02" # Base 0B - Green

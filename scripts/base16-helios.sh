@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Helios scheme by Alex Meyer (https://github.com/reyemxela)
 
+export BASE16_COLOR_00="1d2021"
+export BASE16_COLOR_01="383c3e"
+export BASE16_COLOR_02="53585b"
+export BASE16_COLOR_03="6f7579"
+export BASE16_COLOR_04="cdcdcd"
+export BASE16_COLOR_05="d5d5d5"
+export BASE16_COLOR_06="dddddd"
+export BASE16_COLOR_07="e5e5e5"
+export BASE16_COLOR_08="d72638"
+export BASE16_COLOR_09="eb8413"
+export BASE16_COLOR_0A="f19d1a"
+export BASE16_COLOR_0B="88b92d"
+export BASE16_COLOR_0C="1ba595"
+export BASE16_COLOR_0D="1e8bac"
+export BASE16_COLOR_0E="be4264"
+export BASE16_COLOR_0F="c85e0d"
+
 color00="1d/20/21" # Base 00 - Black
 color01="d7/26/38" # Base 08 - Red
 color02="88/b9/2d" # Base 0B - Green

@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Zenburn scheme by elnawe
 
+export BASE16_COLOR_00="383838"
+export BASE16_COLOR_01="404040"
+export BASE16_COLOR_02="606060"
+export BASE16_COLOR_03="6f6f6f"
+export BASE16_COLOR_04="808080"
+export BASE16_COLOR_05="dcdccc"
+export BASE16_COLOR_06="c0c0c0"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="dca3a3"
+export BASE16_COLOR_09="dfaf8f"
+export BASE16_COLOR_0A="e0cf9f"
+export BASE16_COLOR_0B="5f7f5f"
+export BASE16_COLOR_0C="93e0e3"
+export BASE16_COLOR_0D="7cb8bb"
+export BASE16_COLOR_0E="dc8cc3"
+export BASE16_COLOR_0F="000000"
+
 color00="38/38/38" # Base 00 - Black
 color01="dc/a3/a3" # Base 08 - Red
 color02="5f/7f/5f" # Base 0B - Green

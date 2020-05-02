@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Snazzy scheme by Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
 
+export BASE16_COLOR_00="282a36"
+export BASE16_COLOR_01="34353e"
+export BASE16_COLOR_02="43454f"
+export BASE16_COLOR_03="78787e"
+export BASE16_COLOR_04="a5a5a9"
+export BASE16_COLOR_05="e2e4e5"
+export BASE16_COLOR_06="eff0eb"
+export BASE16_COLOR_07="f1f1f0"
+export BASE16_COLOR_08="ff5c57"
+export BASE16_COLOR_09="ff9f43"
+export BASE16_COLOR_0A="f3f99d"
+export BASE16_COLOR_0B="5af78e"
+export BASE16_COLOR_0C="9aedfe"
+export BASE16_COLOR_0D="57c7ff"
+export BASE16_COLOR_0E="ff6ac1"
+export BASE16_COLOR_0F="b2643c"
+
 color00="28/2a/36" # Base 00 - Black
 color01="ff/5c/57" # Base 08 - Red
 color02="5a/f7/8e" # Base 0B - Green

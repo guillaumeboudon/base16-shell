@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Hopscotch scheme by Jan T. Sott
 
+export BASE16_COLOR_00="322931"
+export BASE16_COLOR_01="433b42"
+export BASE16_COLOR_02="5c545b"
+export BASE16_COLOR_03="797379"
+export BASE16_COLOR_04="989498"
+export BASE16_COLOR_05="b9b5b8"
+export BASE16_COLOR_06="d5d3d5"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="dd464c"
+export BASE16_COLOR_09="fd8b19"
+export BASE16_COLOR_0A="fdcc59"
+export BASE16_COLOR_0B="8fc13e"
+export BASE16_COLOR_0C="149b93"
+export BASE16_COLOR_0D="1290bf"
+export BASE16_COLOR_0E="c85e7c"
+export BASE16_COLOR_0F="b33508"
+
 color00="32/29/31" # Base 00 - Black
 color01="dd/46/4c" # Base 08 - Red
 color02="8f/c1/3e" # Base 0B - Green

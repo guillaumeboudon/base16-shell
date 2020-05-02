@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # IR Black scheme by Timothée Poisot (http://timotheepoisot.fr)
 
+export BASE16_COLOR_00="000000"
+export BASE16_COLOR_01="242422"
+export BASE16_COLOR_02="484844"
+export BASE16_COLOR_03="6c6c66"
+export BASE16_COLOR_04="918f88"
+export BASE16_COLOR_05="b5b3aa"
+export BASE16_COLOR_06="d9d7cc"
+export BASE16_COLOR_07="fdfbee"
+export BASE16_COLOR_08="ff6c60"
+export BASE16_COLOR_09="e9c062"
+export BASE16_COLOR_0A="ffffb6"
+export BASE16_COLOR_0B="a8ff60"
+export BASE16_COLOR_0C="c6c5fe"
+export BASE16_COLOR_0D="96cbfe"
+export BASE16_COLOR_0E="ff73fd"
+export BASE16_COLOR_0F="b18a3d"
+
 color00="00/00/00" # Base 00 - Black
 color01="ff/6c/60" # Base 08 - Red
 color02="a8/ff/60" # Base 0B - Green

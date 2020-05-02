@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Decaf scheme by Alex Mirrington (https://github.com/alexmirrington)
 
+export BASE16_COLOR_00="2d2d2d"
+export BASE16_COLOR_01="393939"
+export BASE16_COLOR_02="515151"
+export BASE16_COLOR_03="777777"
+export BASE16_COLOR_04="b4b7b4"
+export BASE16_COLOR_05="cccccc"
+export BASE16_COLOR_06="e0e0e0"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="ff7f7b"
+export BASE16_COLOR_09="ffbf70"
+export BASE16_COLOR_0A="ffd67c"
+export BASE16_COLOR_0B="beda78"
+export BASE16_COLOR_0C="bed6ff"
+export BASE16_COLOR_0D="90bee1"
+export BASE16_COLOR_0E="efb3f7"
+export BASE16_COLOR_0F="ff93b3"
+
 color00="2d/2d/2d" # Base 00 - Black
 color01="ff/7f/7b" # Base 08 - Red
 color02="be/da/78" # Base 0B - Green

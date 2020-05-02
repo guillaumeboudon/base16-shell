@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Circus scheme by Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
 
+export BASE16_COLOR_00="191919"
+export BASE16_COLOR_01="202020"
+export BASE16_COLOR_02="303030"
+export BASE16_COLOR_03="5f5a60"
+export BASE16_COLOR_04="505050"
+export BASE16_COLOR_05="a7a7a7"
+export BASE16_COLOR_06="808080"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="dc657d"
+export BASE16_COLOR_09="4bb1a7"
+export BASE16_COLOR_0A="c3ba63"
+export BASE16_COLOR_0B="84b97c"
+export BASE16_COLOR_0C="4bb1a7"
+export BASE16_COLOR_0D="639ee4"
+export BASE16_COLOR_0E="b888e2"
+export BASE16_COLOR_0F="b888e2"
+
 color00="19/19/19" # Base 00 - Black
 color01="dc/65/7d" # Base 08 - Red
 color02="84/b9/7c" # Base 0B - Green

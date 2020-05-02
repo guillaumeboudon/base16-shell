@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Fruit Soda scheme by jozip
 
+export BASE16_COLOR_00="f1ecf1"
+export BASE16_COLOR_01="e0dee0"
+export BASE16_COLOR_02="d8d5d5"
+export BASE16_COLOR_03="b5b4b6"
+export BASE16_COLOR_04="979598"
+export BASE16_COLOR_05="515151"
+export BASE16_COLOR_06="474545"
+export BASE16_COLOR_07="2d2c2c"
+export BASE16_COLOR_08="fe3e31"
+export BASE16_COLOR_09="fe6d08"
+export BASE16_COLOR_0A="f7e203"
+export BASE16_COLOR_0B="47f74c"
+export BASE16_COLOR_0C="0f9cfd"
+export BASE16_COLOR_0D="2931df"
+export BASE16_COLOR_0E="611fce"
+export BASE16_COLOR_0F="b16f40"
+
 color00="f1/ec/f1" # Base 00 - Black
 color01="fe/3e/31" # Base 08 - Red
 color02="47/f7/4c" # Base 0B - Green

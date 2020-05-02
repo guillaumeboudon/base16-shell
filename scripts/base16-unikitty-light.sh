@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Unikitty Light scheme by Josh W Lewis (@joshwlewis)
 
+export BASE16_COLOR_00="ffffff"
+export BASE16_COLOR_01="e1e1e2"
+export BASE16_COLOR_02="c4c3c5"
+export BASE16_COLOR_03="a7a5a8"
+export BASE16_COLOR_04="89878b"
+export BASE16_COLOR_05="6c696e"
+export BASE16_COLOR_06="4f4b51"
+export BASE16_COLOR_07="322d34"
+export BASE16_COLOR_08="d8137f"
+export BASE16_COLOR_09="d65407"
+export BASE16_COLOR_0A="dc8a0e"
+export BASE16_COLOR_0B="17ad98"
+export BASE16_COLOR_0C="149bda"
+export BASE16_COLOR_0D="775dff"
+export BASE16_COLOR_0E="aa17e6"
+export BASE16_COLOR_0F="e013d0"
+
 color00="ff/ff/ff" # Base 00 - Black
 color01="d8/13/7f" # Base 08 - Red
 color02="17/ad/98" # Base 0B - Green

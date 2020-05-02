@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Pop scheme by Chris Kempson (http://chriskempson.com)
 
+export BASE16_COLOR_00="000000"
+export BASE16_COLOR_01="202020"
+export BASE16_COLOR_02="303030"
+export BASE16_COLOR_03="505050"
+export BASE16_COLOR_04="b0b0b0"
+export BASE16_COLOR_05="d0d0d0"
+export BASE16_COLOR_06="e0e0e0"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="eb008a"
+export BASE16_COLOR_09="f29333"
+export BASE16_COLOR_0A="f8ca12"
+export BASE16_COLOR_0B="37b349"
+export BASE16_COLOR_0C="00aabb"
+export BASE16_COLOR_0D="0e5a94"
+export BASE16_COLOR_0E="b31e8d"
+export BASE16_COLOR_0F="7a2d00"
+
 color00="00/00/00" # Base 00 - Black
 color01="eb/00/8a" # Base 08 - Red
 color02="37/b3/49" # Base 0B - Green

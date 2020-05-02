@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atlas scheme by Alex Lende (https://ajlende.com)
 
+export BASE16_COLOR_00="002635"
+export BASE16_COLOR_01="00384d"
+export BASE16_COLOR_02="517F8D"
+export BASE16_COLOR_03="6C8B91"
+export BASE16_COLOR_04="869696"
+export BASE16_COLOR_05="a1a19a"
+export BASE16_COLOR_06="e6e6dc"
+export BASE16_COLOR_07="fafaf8"
+export BASE16_COLOR_08="ff5a67"
+export BASE16_COLOR_09="f08e48"
+export BASE16_COLOR_0A="ffcc1b"
+export BASE16_COLOR_0B="7fc06e"
+export BASE16_COLOR_0C="14747e"
+export BASE16_COLOR_0D="5dd7b9"
+export BASE16_COLOR_0E="9a70a4"
+export BASE16_COLOR_0F="c43060"
+
 color00="00/26/35" # Base 00 - Black
 color01="ff/5a/67" # Base 08 - Red
 color02="7f/c0/6e" # Base 0B - Green

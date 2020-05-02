@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Outrun Dark scheme by Hugo Delahousse (http://github.com/hugodelahousse/)
 
+export BASE16_COLOR_00="00002A"
+export BASE16_COLOR_01="20204A"
+export BASE16_COLOR_02="30305A"
+export BASE16_COLOR_03="50507A"
+export BASE16_COLOR_04="B0B0DA"
+export BASE16_COLOR_05="D0D0FA"
+export BASE16_COLOR_06="E0E0FF"
+export BASE16_COLOR_07="F5F5FF"
+export BASE16_COLOR_08="FF4242"
+export BASE16_COLOR_09="FC8D28"
+export BASE16_COLOR_0A="F3E877"
+export BASE16_COLOR_0B="59F176"
+export BASE16_COLOR_0C="0EF0F0"
+export BASE16_COLOR_0D="66B0FF"
+export BASE16_COLOR_0E="F10596"
+export BASE16_COLOR_0F="F003EF"
+
 color00="00/00/2A" # Base 00 - Black
 color01="FF/42/42" # Base 08 - Red
 color02="59/F1/76" # Base 0B - Green

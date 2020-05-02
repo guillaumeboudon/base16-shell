@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Brewer scheme by Timothée Poisot (http://github.com/tpoisot)
 
+export BASE16_COLOR_00="0c0d0e"
+export BASE16_COLOR_01="2e2f30"
+export BASE16_COLOR_02="515253"
+export BASE16_COLOR_03="737475"
+export BASE16_COLOR_04="959697"
+export BASE16_COLOR_05="b7b8b9"
+export BASE16_COLOR_06="dadbdc"
+export BASE16_COLOR_07="fcfdfe"
+export BASE16_COLOR_08="e31a1c"
+export BASE16_COLOR_09="e6550d"
+export BASE16_COLOR_0A="dca060"
+export BASE16_COLOR_0B="31a354"
+export BASE16_COLOR_0C="80b1d3"
+export BASE16_COLOR_0D="3182bd"
+export BASE16_COLOR_0E="756bb1"
+export BASE16_COLOR_0F="b15928"
+
 color00="0c/0d/0e" # Base 00 - Black
 color01="e3/1a/1c" # Base 08 - Red
 color02="31/a3/54" # Base 0B - Green

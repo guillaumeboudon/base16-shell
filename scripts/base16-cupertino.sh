@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Cupertino scheme by Defman21
 
+export BASE16_COLOR_00="ffffff"
+export BASE16_COLOR_01="c0c0c0"
+export BASE16_COLOR_02="c0c0c0"
+export BASE16_COLOR_03="808080"
+export BASE16_COLOR_04="808080"
+export BASE16_COLOR_05="404040"
+export BASE16_COLOR_06="404040"
+export BASE16_COLOR_07="5e5e5e"
+export BASE16_COLOR_08="c41a15"
+export BASE16_COLOR_09="eb8500"
+export BASE16_COLOR_0A="826b28"
+export BASE16_COLOR_0B="007400"
+export BASE16_COLOR_0C="318495"
+export BASE16_COLOR_0D="0000ff"
+export BASE16_COLOR_0E="a90d91"
+export BASE16_COLOR_0F="826b28"
+
 color00="ff/ff/ff" # Base 00 - Black
 color01="c4/1a/15" # Base 08 - Red
 color02="00/74/00" # Base 0B - Green

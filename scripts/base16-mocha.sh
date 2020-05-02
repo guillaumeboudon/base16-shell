@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Mocha scheme by Chris Kempson (http://chriskempson.com)
 
+export BASE16_COLOR_00="3B3228"
+export BASE16_COLOR_01="534636"
+export BASE16_COLOR_02="645240"
+export BASE16_COLOR_03="7e705a"
+export BASE16_COLOR_04="b8afad"
+export BASE16_COLOR_05="d0c8c6"
+export BASE16_COLOR_06="e9e1dd"
+export BASE16_COLOR_07="f5eeeb"
+export BASE16_COLOR_08="cb6077"
+export BASE16_COLOR_09="d28b71"
+export BASE16_COLOR_0A="f4bc87"
+export BASE16_COLOR_0B="beb55b"
+export BASE16_COLOR_0C="7bbda4"
+export BASE16_COLOR_0D="8ab3b5"
+export BASE16_COLOR_0E="a89bb9"
+export BASE16_COLOR_0F="bb9584"
+
 color00="3B/32/28" # Base 00 - Black
 color01="cb/60/77" # Base 08 - Red
 color02="be/b5/5b" # Base 0B - Green

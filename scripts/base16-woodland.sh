@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Woodland scheme by Jay Cornwall (https://jcornwall.com)
 
+export BASE16_COLOR_00="231e18"
+export BASE16_COLOR_01="302b25"
+export BASE16_COLOR_02="48413a"
+export BASE16_COLOR_03="9d8b70"
+export BASE16_COLOR_04="b4a490"
+export BASE16_COLOR_05="cabcb1"
+export BASE16_COLOR_06="d7c8bc"
+export BASE16_COLOR_07="e4d4c8"
+export BASE16_COLOR_08="d35c5c"
+export BASE16_COLOR_09="ca7f32"
+export BASE16_COLOR_0A="e0ac16"
+export BASE16_COLOR_0B="b7ba53"
+export BASE16_COLOR_0C="6eb958"
+export BASE16_COLOR_0D="88a4d3"
+export BASE16_COLOR_0E="bb90e2"
+export BASE16_COLOR_0F="b49368"
+
 color00="23/1e/18" # Base 00 - Black
 color01="d3/5c/5c" # Base 08 - Red
 color02="b7/ba/53" # Base 0B - Green

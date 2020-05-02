@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Bespin scheme by Jan T. Sott
 
+export BASE16_COLOR_00="28211c"
+export BASE16_COLOR_01="36312e"
+export BASE16_COLOR_02="5e5d5c"
+export BASE16_COLOR_03="666666"
+export BASE16_COLOR_04="797977"
+export BASE16_COLOR_05="8a8986"
+export BASE16_COLOR_06="9d9b97"
+export BASE16_COLOR_07="baae9e"
+export BASE16_COLOR_08="cf6a4c"
+export BASE16_COLOR_09="cf7d34"
+export BASE16_COLOR_0A="f9ee98"
+export BASE16_COLOR_0B="54be0d"
+export BASE16_COLOR_0C="afc4db"
+export BASE16_COLOR_0D="5ea6ea"
+export BASE16_COLOR_0E="9b859d"
+export BASE16_COLOR_0F="937121"
+
 color00="28/21/1c" # Base 00 - Black
 color01="cf/6a/4c" # Base 08 - Red
 color02="54/be/0d" # Base 0B - Green

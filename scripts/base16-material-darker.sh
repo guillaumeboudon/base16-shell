@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Material Darker scheme by Nate Peterson
 
+export BASE16_COLOR_00="212121"
+export BASE16_COLOR_01="303030"
+export BASE16_COLOR_02="353535"
+export BASE16_COLOR_03="4A4A4A"
+export BASE16_COLOR_04="B2CCD6"
+export BASE16_COLOR_05="EEFFFF"
+export BASE16_COLOR_06="EEFFFF"
+export BASE16_COLOR_07="FFFFFF"
+export BASE16_COLOR_08="F07178"
+export BASE16_COLOR_09="F78C6C"
+export BASE16_COLOR_0A="FFCB6B"
+export BASE16_COLOR_0B="C3E88D"
+export BASE16_COLOR_0C="89DDFF"
+export BASE16_COLOR_0D="82AAFF"
+export BASE16_COLOR_0E="C792EA"
+export BASE16_COLOR_0F="FF5370"
+
 color00="21/21/21" # Base 00 - Black
 color01="F0/71/78" # Base 08 - Red
 color02="C3/E8/8D" # Base 0B - Green

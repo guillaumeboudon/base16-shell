@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Material Vivid scheme by joshyrobot
 
+export BASE16_COLOR_00="202124"
+export BASE16_COLOR_01="27292c"
+export BASE16_COLOR_02="323639"
+export BASE16_COLOR_03="44464d"
+export BASE16_COLOR_04="676c71"
+export BASE16_COLOR_05="80868b"
+export BASE16_COLOR_06="9e9e9e"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="f44336"
+export BASE16_COLOR_09="ff9800"
+export BASE16_COLOR_0A="ffeb3b"
+export BASE16_COLOR_0B="00e676"
+export BASE16_COLOR_0C="00bcd4"
+export BASE16_COLOR_0D="2196f3"
+export BASE16_COLOR_0E="673ab7"
+export BASE16_COLOR_0F="8d6e63"
+
 color00="20/21/24" # Base 00 - Black
 color01="f4/43/36" # Base 08 - Red
 color02="00/e6/76" # Base 0B - Green

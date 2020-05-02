@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atelier Lakeside Light scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
+export BASE16_COLOR_00="ebf8ff"
+export BASE16_COLOR_01="c1e4f6"
+export BASE16_COLOR_02="7ea2b4"
+export BASE16_COLOR_03="7195a8"
+export BASE16_COLOR_04="5a7b8c"
+export BASE16_COLOR_05="516d7b"
+export BASE16_COLOR_06="1f292e"
+export BASE16_COLOR_07="161b1d"
+export BASE16_COLOR_08="d22d72"
+export BASE16_COLOR_09="935c25"
+export BASE16_COLOR_0A="8a8a0f"
+export BASE16_COLOR_0B="568c3b"
+export BASE16_COLOR_0C="2d8f6f"
+export BASE16_COLOR_0D="257fad"
+export BASE16_COLOR_0E="6b6bb8"
+export BASE16_COLOR_0F="b72dd2"
+
 color00="eb/f8/ff" # Base 00 - Black
 color01="d2/2d/72" # Base 08 - Red
 color02="56/8c/3b" # Base 0B - Green

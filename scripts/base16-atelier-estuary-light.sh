@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atelier Estuary Light scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
+export BASE16_COLOR_00="f4f3ec"
+export BASE16_COLOR_01="e7e6df"
+export BASE16_COLOR_02="929181"
+export BASE16_COLOR_03="878573"
+export BASE16_COLOR_04="6c6b5a"
+export BASE16_COLOR_05="5f5e4e"
+export BASE16_COLOR_06="302f27"
+export BASE16_COLOR_07="22221b"
+export BASE16_COLOR_08="ba6236"
+export BASE16_COLOR_09="ae7313"
+export BASE16_COLOR_0A="a5980d"
+export BASE16_COLOR_0B="7d9726"
+export BASE16_COLOR_0C="5b9d48"
+export BASE16_COLOR_0D="36a166"
+export BASE16_COLOR_0E="5f9182"
+export BASE16_COLOR_0F="9d6c7c"
+
 color00="f4/f3/ec" # Base 00 - Black
 color01="ba/62/36" # Base 08 - Red
 color02="7d/97/26" # Base 0B - Green

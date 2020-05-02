@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Sandcastle scheme by George Essig (https://github.com/gessig)
 
+export BASE16_COLOR_00="282c34"
+export BASE16_COLOR_01="2c323b"
+export BASE16_COLOR_02="3e4451"
+export BASE16_COLOR_03="665c54"
+export BASE16_COLOR_04="928374"
+export BASE16_COLOR_05="a89984"
+export BASE16_COLOR_06="d5c4a1"
+export BASE16_COLOR_07="fdf4c1"
+export BASE16_COLOR_08="83a598"
+export BASE16_COLOR_09="a07e3b"
+export BASE16_COLOR_0A="a07e3b"
+export BASE16_COLOR_0B="528b8b"
+export BASE16_COLOR_0C="83a598"
+export BASE16_COLOR_0D="83a598"
+export BASE16_COLOR_0E="d75f5f"
+export BASE16_COLOR_0F="a87322"
+
 color00="28/2c/34" # Base 00 - Black
 color01="83/a5/98" # Base 08 - Red
 color02="52/8b/8b" # Base 0B - Green

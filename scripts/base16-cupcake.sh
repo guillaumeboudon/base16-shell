@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Cupcake scheme by Chris Kempson (http://chriskempson.com)
 
+export BASE16_COLOR_00="fbf1f2"
+export BASE16_COLOR_01="f2f1f4"
+export BASE16_COLOR_02="d8d5dd"
+export BASE16_COLOR_03="bfb9c6"
+export BASE16_COLOR_04="a59daf"
+export BASE16_COLOR_05="8b8198"
+export BASE16_COLOR_06="72677E"
+export BASE16_COLOR_07="585062"
+export BASE16_COLOR_08="D57E85"
+export BASE16_COLOR_09="EBB790"
+export BASE16_COLOR_0A="DCB16C"
+export BASE16_COLOR_0B="A3B367"
+export BASE16_COLOR_0C="69A9A7"
+export BASE16_COLOR_0D="7297B9"
+export BASE16_COLOR_0E="BB99B4"
+export BASE16_COLOR_0F="BAA58C"
+
 color00="fb/f1/f2" # Base 00 - Black
 color01="D5/7E/85" # Base 08 - Red
 color02="A3/B3/67" # Base 0B - Green

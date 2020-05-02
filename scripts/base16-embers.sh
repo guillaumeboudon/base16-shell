@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Embers scheme by Jannik Siebert (https://github.com/janniks)
 
+export BASE16_COLOR_00="16130F"
+export BASE16_COLOR_01="2C2620"
+export BASE16_COLOR_02="433B32"
+export BASE16_COLOR_03="5A5047"
+export BASE16_COLOR_04="8A8075"
+export BASE16_COLOR_05="A39A90"
+export BASE16_COLOR_06="BEB6AE"
+export BASE16_COLOR_07="DBD6D1"
+export BASE16_COLOR_08="826D57"
+export BASE16_COLOR_09="828257"
+export BASE16_COLOR_0A="6D8257"
+export BASE16_COLOR_0B="57826D"
+export BASE16_COLOR_0C="576D82"
+export BASE16_COLOR_0D="6D5782"
+export BASE16_COLOR_0E="82576D"
+export BASE16_COLOR_0F="825757"
+
 color00="16/13/0F" # Base 00 - Black
 color01="82/6D/57" # Base 08 - Red
 color02="57/82/6D" # Base 0B - Green

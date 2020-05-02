@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Railscasts scheme by Ryan Bates (http://railscasts.com)
 
+export BASE16_COLOR_00="2b2b2b"
+export BASE16_COLOR_01="272935"
+export BASE16_COLOR_02="3a4055"
+export BASE16_COLOR_03="5a647e"
+export BASE16_COLOR_04="d4cfc9"
+export BASE16_COLOR_05="e6e1dc"
+export BASE16_COLOR_06="f4f1ed"
+export BASE16_COLOR_07="f9f7f3"
+export BASE16_COLOR_08="da4939"
+export BASE16_COLOR_09="cc7833"
+export BASE16_COLOR_0A="ffc66d"
+export BASE16_COLOR_0B="a5c261"
+export BASE16_COLOR_0C="519f50"
+export BASE16_COLOR_0D="6d9cbe"
+export BASE16_COLOR_0E="b6b3eb"
+export BASE16_COLOR_0F="bc9458"
+
 color00="2b/2b/2b" # Base 00 - Black
 color01="da/49/39" # Base 08 - Red
 color02="a5/c2/61" # Base 0B - Green

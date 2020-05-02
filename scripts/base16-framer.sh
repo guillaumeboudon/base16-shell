@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Framer scheme by Framer (Maintained by Jesse Hoyos)
 
+export BASE16_COLOR_00="181818"
+export BASE16_COLOR_01="151515"
+export BASE16_COLOR_02="464646"
+export BASE16_COLOR_03="747474"
+export BASE16_COLOR_04="B9B9B9"
+export BASE16_COLOR_05="D0D0D0"
+export BASE16_COLOR_06="E8E8E8"
+export BASE16_COLOR_07="EEEEEE"
+export BASE16_COLOR_08="FD886B"
+export BASE16_COLOR_09="FC4769"
+export BASE16_COLOR_0A="FECB6E"
+export BASE16_COLOR_0B="32CCDC"
+export BASE16_COLOR_0C="ACDDFD"
+export BASE16_COLOR_0D="20BCFC"
+export BASE16_COLOR_0E="BA8CFC"
+export BASE16_COLOR_0F="B15F4A"
+
 color00="18/18/18" # Base 00 - Black
 color01="FD/88/6B" # Base 08 - Red
 color02="32/CC/DC" # Base 0B - Green

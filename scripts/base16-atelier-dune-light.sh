@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atelier Dune Light scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
+export BASE16_COLOR_00="fefbec"
+export BASE16_COLOR_01="e8e4cf"
+export BASE16_COLOR_02="a6a28c"
+export BASE16_COLOR_03="999580"
+export BASE16_COLOR_04="7d7a68"
+export BASE16_COLOR_05="6e6b5e"
+export BASE16_COLOR_06="292824"
+export BASE16_COLOR_07="20201d"
+export BASE16_COLOR_08="d73737"
+export BASE16_COLOR_09="b65611"
+export BASE16_COLOR_0A="ae9513"
+export BASE16_COLOR_0B="60ac39"
+export BASE16_COLOR_0C="1fad83"
+export BASE16_COLOR_0D="6684e1"
+export BASE16_COLOR_0E="b854d4"
+export BASE16_COLOR_0F="d43552"
+
 color00="fe/fb/ec" # Base 00 - Black
 color01="d7/37/37" # Base 08 - Red
 color02="60/ac/39" # Base 0B - Green

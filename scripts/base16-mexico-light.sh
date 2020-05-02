@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Mexico Light scheme by Sheldon Johnson
 
+export BASE16_COLOR_00="f8f8f8"
+export BASE16_COLOR_01="e8e8e8"
+export BASE16_COLOR_02="d8d8d8"
+export BASE16_COLOR_03="b8b8b8"
+export BASE16_COLOR_04="585858"
+export BASE16_COLOR_05="383838"
+export BASE16_COLOR_06="282828"
+export BASE16_COLOR_07="181818"
+export BASE16_COLOR_08="ab4642"
+export BASE16_COLOR_09="dc9656"
+export BASE16_COLOR_0A="f79a0e"
+export BASE16_COLOR_0B="538947"
+export BASE16_COLOR_0C="4b8093"
+export BASE16_COLOR_0D="7cafc2"
+export BASE16_COLOR_0E="96609e"
+export BASE16_COLOR_0F="a16946"
+
 color00="f8/f8/f8" # Base 00 - Black
 color01="ab/46/42" # Base 08 - Red
 color02="53/89/47" # Base 0B - Green

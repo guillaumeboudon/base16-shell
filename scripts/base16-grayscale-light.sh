@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Grayscale Light scheme by Alexandre Gavioli (https://github.com/Alexx2/)
 
+export BASE16_COLOR_00="f7f7f7"
+export BASE16_COLOR_01="e3e3e3"
+export BASE16_COLOR_02="b9b9b9"
+export BASE16_COLOR_03="ababab"
+export BASE16_COLOR_04="525252"
+export BASE16_COLOR_05="464646"
+export BASE16_COLOR_06="252525"
+export BASE16_COLOR_07="101010"
+export BASE16_COLOR_08="7c7c7c"
+export BASE16_COLOR_09="999999"
+export BASE16_COLOR_0A="a0a0a0"
+export BASE16_COLOR_0B="8e8e8e"
+export BASE16_COLOR_0C="868686"
+export BASE16_COLOR_0D="686868"
+export BASE16_COLOR_0E="747474"
+export BASE16_COLOR_0F="5e5e5e"
+
 color00="f7/f7/f7" # Base 00 - Black
 color01="7c/7c/7c" # Base 08 - Red
 color02="8e/8e/8e" # Base 0B - Green

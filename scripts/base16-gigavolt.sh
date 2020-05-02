@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Gigavolt scheme by Aidan Swope (http://github.com/Whillikers)
 
+export BASE16_COLOR_00="202126"
+export BASE16_COLOR_01="2d303d"
+export BASE16_COLOR_02="5a576e"
+export BASE16_COLOR_03="a1d2e6"
+export BASE16_COLOR_04="cad3ff"
+export BASE16_COLOR_05="e9e7e1"
+export BASE16_COLOR_06="eff0f9"
+export BASE16_COLOR_07="f2fbff"
+export BASE16_COLOR_08="ff661a"
+export BASE16_COLOR_09="19f988"
+export BASE16_COLOR_0A="ffdc2d"
+export BASE16_COLOR_0B="f2e6a9"
+export BASE16_COLOR_0C="fb6acb"
+export BASE16_COLOR_0D="40bfff"
+export BASE16_COLOR_0E="ae94f9"
+export BASE16_COLOR_0F="6187ff"
+
 color00="20/21/26" # Base 00 - Black
 color01="ff/66/1a" # Base 08 - Red
 color02="f2/e6/a9" # Base 0B - Green

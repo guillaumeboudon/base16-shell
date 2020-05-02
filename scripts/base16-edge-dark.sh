@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Edge Dark scheme by cjayross (https://github.com/cjayross)
 
+export BASE16_COLOR_00="262729"
+export BASE16_COLOR_01="88909f"
+export BASE16_COLOR_02="b7bec9"
+export BASE16_COLOR_03="3e4249"
+export BASE16_COLOR_04="73b3e7"
+export BASE16_COLOR_05="b7bec9"
+export BASE16_COLOR_06="d390e7"
+export BASE16_COLOR_07="3e4249"
+export BASE16_COLOR_08="e77171"
+export BASE16_COLOR_09="e77171"
+export BASE16_COLOR_0A="dbb774"
+export BASE16_COLOR_0B="a1bf78"
+export BASE16_COLOR_0C="5ebaa5"
+export BASE16_COLOR_0D="73b3e7"
+export BASE16_COLOR_0E="d390e7"
+export BASE16_COLOR_0F="5ebaa5"
+
 color00="26/27/29" # Base 00 - Black
 color01="e7/71/71" # Base 08 - Red
 color02="a1/bf/78" # Base 0B - Green

@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Heetch Dark scheme by Geoffrey Teale (tealeg@gmail.com)
 
+export BASE16_COLOR_00="190134"
+export BASE16_COLOR_01="392551"
+export BASE16_COLOR_02="5A496E"
+export BASE16_COLOR_03="7B6D8B"
+export BASE16_COLOR_04="9C92A8"
+export BASE16_COLOR_05="BDB6C5"
+export BASE16_COLOR_06="DEDAE2"
+export BASE16_COLOR_07="FEFFFF"
+export BASE16_COLOR_08="27D9D5"
+export BASE16_COLOR_09="5BA2B6"
+export BASE16_COLOR_0A="8F6C97"
+export BASE16_COLOR_0B="C33678"
+export BASE16_COLOR_0C="F80059"
+export BASE16_COLOR_0D="BD0152"
+export BASE16_COLOR_0E="82034C"
+export BASE16_COLOR_0F="470546"
+
 color00="19/01/34" # Base 00 - Black
 color01="27/D9/D5" # Base 08 - Red
 color02="C3/36/78" # Base 0B - Green

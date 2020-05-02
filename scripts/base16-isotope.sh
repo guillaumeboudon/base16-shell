@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Isotope scheme by Jan T. Sott
 
+export BASE16_COLOR_00="000000"
+export BASE16_COLOR_01="404040"
+export BASE16_COLOR_02="606060"
+export BASE16_COLOR_03="808080"
+export BASE16_COLOR_04="c0c0c0"
+export BASE16_COLOR_05="d0d0d0"
+export BASE16_COLOR_06="e0e0e0"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="ff0000"
+export BASE16_COLOR_09="ff9900"
+export BASE16_COLOR_0A="ff0099"
+export BASE16_COLOR_0B="33ff00"
+export BASE16_COLOR_0C="00ffff"
+export BASE16_COLOR_0D="0066ff"
+export BASE16_COLOR_0E="cc00ff"
+export BASE16_COLOR_0F="3300ff"
+
 color00="00/00/00" # Base 00 - Black
 color01="ff/00/00" # Base 08 - Red
 color02="33/ff/00" # Base 0B - Green

@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Materia scheme by Defman21
 
+export BASE16_COLOR_00="263238"
+export BASE16_COLOR_01="2C393F"
+export BASE16_COLOR_02="37474F"
+export BASE16_COLOR_03="707880"
+export BASE16_COLOR_04="C9CCD3"
+export BASE16_COLOR_05="CDD3DE"
+export BASE16_COLOR_06="D5DBE5"
+export BASE16_COLOR_07="FFFFFF"
+export BASE16_COLOR_08="EC5F67"
+export BASE16_COLOR_09="EA9560"
+export BASE16_COLOR_0A="FFCC00"
+export BASE16_COLOR_0B="8BD649"
+export BASE16_COLOR_0C="80CBC4"
+export BASE16_COLOR_0D="89DDFF"
+export BASE16_COLOR_0E="82AAFF"
+export BASE16_COLOR_0F="EC5F67"
+
 color00="26/32/38" # Base 00 - Black
 color01="EC/5F/67" # Base 08 - Red
 color02="8B/D6/49" # Base 0B - Green

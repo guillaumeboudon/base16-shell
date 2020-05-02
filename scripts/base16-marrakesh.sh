@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Marrakesh scheme by Alexandre Gavioli (http://github.com/Alexx2/)
 
+export BASE16_COLOR_00="201602"
+export BASE16_COLOR_01="302e00"
+export BASE16_COLOR_02="5f5b17"
+export BASE16_COLOR_03="6c6823"
+export BASE16_COLOR_04="86813b"
+export BASE16_COLOR_05="948e48"
+export BASE16_COLOR_06="ccc37a"
+export BASE16_COLOR_07="faf0a5"
+export BASE16_COLOR_08="c35359"
+export BASE16_COLOR_09="b36144"
+export BASE16_COLOR_0A="a88339"
+export BASE16_COLOR_0B="18974e"
+export BASE16_COLOR_0C="75a738"
+export BASE16_COLOR_0D="477ca1"
+export BASE16_COLOR_0E="8868b3"
+export BASE16_COLOR_0F="b3588e"
+
 color00="20/16/02" # Base 00 - Black
 color01="c3/53/59" # Base 08 - Red
 color02="18/97/4e" # Base 0B - Green

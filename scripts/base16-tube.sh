@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # London Tube scheme by Jan T. Sott
 
+export BASE16_COLOR_00="231f20"
+export BASE16_COLOR_01="1c3f95"
+export BASE16_COLOR_02="5a5758"
+export BASE16_COLOR_03="737171"
+export BASE16_COLOR_04="959ca1"
+export BASE16_COLOR_05="d9d8d8"
+export BASE16_COLOR_06="e7e7e8"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="ee2e24"
+export BASE16_COLOR_09="f386a1"
+export BASE16_COLOR_0A="ffd204"
+export BASE16_COLOR_0B="00853e"
+export BASE16_COLOR_0C="85cebc"
+export BASE16_COLOR_0D="009ddc"
+export BASE16_COLOR_0E="98005d"
+export BASE16_COLOR_0F="b06110"
+
 color00="23/1f/20" # Base 00 - Black
 color01="ee/2e/24" # Base 08 - Red
 color02="00/85/3e" # Base 0B - Green

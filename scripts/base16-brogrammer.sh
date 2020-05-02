@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Brogrammer scheme by Vik Ramanujam (http://github.com/piggyslasher)
 
+export BASE16_COLOR_00="1f1f1f"
+export BASE16_COLOR_01="f81118"
+export BASE16_COLOR_02="2dc55e"
+export BASE16_COLOR_03="ecba0f"
+export BASE16_COLOR_04="2a84d2"
+export BASE16_COLOR_05="4e5ab7"
+export BASE16_COLOR_06="1081d6"
+export BASE16_COLOR_07="d6dbe5"
+export BASE16_COLOR_08="d6dbe5"
+export BASE16_COLOR_09="de352e"
+export BASE16_COLOR_0A="1dd361"
+export BASE16_COLOR_0B="f3bd09"
+export BASE16_COLOR_0C="1081d6"
+export BASE16_COLOR_0D="5350b9"
+export BASE16_COLOR_0E="0f7ddb"
+export BASE16_COLOR_0F="ffffff"
+
 color00="1f/1f/1f" # Base 00 - Black
 color01="d6/db/e5" # Base 08 - Red
 color02="f3/bd/09" # Base 0B - Green

@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # 3024 scheme by Jan T. Sott (http://github.com/idleberg)
 
+export BASE16_COLOR_00="090300"
+export BASE16_COLOR_01="3a3432"
+export BASE16_COLOR_02="4a4543"
+export BASE16_COLOR_03="5c5855"
+export BASE16_COLOR_04="807d7c"
+export BASE16_COLOR_05="a5a2a2"
+export BASE16_COLOR_06="d6d5d4"
+export BASE16_COLOR_07="f7f7f7"
+export BASE16_COLOR_08="db2d20"
+export BASE16_COLOR_09="e8bbd0"
+export BASE16_COLOR_0A="fded02"
+export BASE16_COLOR_0B="01a252"
+export BASE16_COLOR_0C="b5e4f4"
+export BASE16_COLOR_0D="01a0e4"
+export BASE16_COLOR_0E="a16a94"
+export BASE16_COLOR_0F="cdab53"
+
 color00="09/03/00" # Base 00 - Black
 color01="db/2d/20" # Base 08 - Red
 color02="01/a2/52" # Base 0B - Green

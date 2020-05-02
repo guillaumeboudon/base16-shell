@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Synth Midnight Dark scheme by Michaël Ball (http://github.com/michael-ball/)
 
+export BASE16_COLOR_00="040404"
+export BASE16_COLOR_01="141414"
+export BASE16_COLOR_02="242424"
+export BASE16_COLOR_03="61507A"
+export BASE16_COLOR_04="BFBBBF"
+export BASE16_COLOR_05="DFDBDF"
+export BASE16_COLOR_06="EFEBEF"
+export BASE16_COLOR_07="FFFBFF"
+export BASE16_COLOR_08="B53B50"
+export BASE16_COLOR_09="E4600E"
+export BASE16_COLOR_0A="DAE84D"
+export BASE16_COLOR_0B="06EA61"
+export BASE16_COLOR_0C="7CEDE9"
+export BASE16_COLOR_0D="03AEFF"
+export BASE16_COLOR_0E="EA5CE2"
+export BASE16_COLOR_0F="9D4D0E"
+
 color00="04/04/04" # Base 00 - Black
 color01="B5/3B/50" # Base 08 - Red
 color02="06/EA/61" # Base 0B - Green

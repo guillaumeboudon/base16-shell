@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # OceanicNext scheme by https://github.com/voronianski/oceanic-next-color-scheme
 
+export BASE16_COLOR_00="1B2B34"
+export BASE16_COLOR_01="343D46"
+export BASE16_COLOR_02="4F5B66"
+export BASE16_COLOR_03="65737E"
+export BASE16_COLOR_04="A7ADBA"
+export BASE16_COLOR_05="C0C5CE"
+export BASE16_COLOR_06="CDD3DE"
+export BASE16_COLOR_07="D8DEE9"
+export BASE16_COLOR_08="EC5f67"
+export BASE16_COLOR_09="F99157"
+export BASE16_COLOR_0A="FAC863"
+export BASE16_COLOR_0B="99C794"
+export BASE16_COLOR_0C="5FB3B3"
+export BASE16_COLOR_0D="6699CC"
+export BASE16_COLOR_0E="C594C5"
+export BASE16_COLOR_0F="AB7967"
+
 color00="1B/2B/34" # Base 00 - Black
 color01="EC/5f/67" # Base 08 - Red
 color02="99/C7/94" # Base 0B - Green

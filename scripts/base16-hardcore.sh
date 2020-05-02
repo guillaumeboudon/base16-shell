@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Hardcore scheme by Chris Caller
 
+export BASE16_COLOR_00="212121"
+export BASE16_COLOR_01="303030"
+export BASE16_COLOR_02="353535"
+export BASE16_COLOR_03="4A4A4A"
+export BASE16_COLOR_04="707070"
+export BASE16_COLOR_05="cdcdcd"
+export BASE16_COLOR_06="e5e5e5"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="f92672"
+export BASE16_COLOR_09="fd971f"
+export BASE16_COLOR_0A="e6db74"
+export BASE16_COLOR_0B="a6e22e"
+export BASE16_COLOR_0C="708387"
+export BASE16_COLOR_0D="66d9ef"
+export BASE16_COLOR_0E="9e6ffe"
+export BASE16_COLOR_0F="e8b882"
+
 color00="21/21/21" # Base 00 - Black
 color01="f9/26/72" # Base 08 - Red
 color02="a6/e2/2e" # Base 0B - Green

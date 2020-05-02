@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atelier Sulphurpool Light scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
+export BASE16_COLOR_00="f5f7ff"
+export BASE16_COLOR_01="dfe2f1"
+export BASE16_COLOR_02="979db4"
+export BASE16_COLOR_03="898ea4"
+export BASE16_COLOR_04="6b7394"
+export BASE16_COLOR_05="5e6687"
+export BASE16_COLOR_06="293256"
+export BASE16_COLOR_07="202746"
+export BASE16_COLOR_08="c94922"
+export BASE16_COLOR_09="c76b29"
+export BASE16_COLOR_0A="c08b30"
+export BASE16_COLOR_0B="ac9739"
+export BASE16_COLOR_0C="22a2c9"
+export BASE16_COLOR_0D="3d8fd1"
+export BASE16_COLOR_0E="6679cc"
+export BASE16_COLOR_0F="9c637a"
+
 color00="f5/f7/ff" # Base 00 - Black
 color01="c9/49/22" # Base 08 - Red
 color02="ac/97/39" # Base 0B - Green

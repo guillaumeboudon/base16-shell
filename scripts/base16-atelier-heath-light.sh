@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atelier Heath Light scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
+export BASE16_COLOR_00="f7f3f7"
+export BASE16_COLOR_01="d8cad8"
+export BASE16_COLOR_02="ab9bab"
+export BASE16_COLOR_03="9e8f9e"
+export BASE16_COLOR_04="776977"
+export BASE16_COLOR_05="695d69"
+export BASE16_COLOR_06="292329"
+export BASE16_COLOR_07="1b181b"
+export BASE16_COLOR_08="ca402b"
+export BASE16_COLOR_09="a65926"
+export BASE16_COLOR_0A="bb8a35"
+export BASE16_COLOR_0B="918b3b"
+export BASE16_COLOR_0C="159393"
+export BASE16_COLOR_0D="516aec"
+export BASE16_COLOR_0E="7b59c0"
+export BASE16_COLOR_0F="cc33cc"
+
 color00="f7/f3/f7" # Base 00 - Black
 color01="ca/40/2b" # Base 08 - Red
 color02="91/8b/3b" # Base 0B - Green

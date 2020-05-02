@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Chalk scheme by Chris Kempson (http://chriskempson.com)
 
+export BASE16_COLOR_00="151515"
+export BASE16_COLOR_01="202020"
+export BASE16_COLOR_02="303030"
+export BASE16_COLOR_03="505050"
+export BASE16_COLOR_04="b0b0b0"
+export BASE16_COLOR_05="d0d0d0"
+export BASE16_COLOR_06="e0e0e0"
+export BASE16_COLOR_07="f5f5f5"
+export BASE16_COLOR_08="fb9fb1"
+export BASE16_COLOR_09="eda987"
+export BASE16_COLOR_0A="ddb26f"
+export BASE16_COLOR_0B="acc267"
+export BASE16_COLOR_0C="12cfc0"
+export BASE16_COLOR_0D="6fc2ef"
+export BASE16_COLOR_0E="e1a3ee"
+export BASE16_COLOR_0F="deaf8f"
+
 color00="15/15/15" # Base 00 - Black
 color01="fb/9f/b1" # Base 08 - Red
 color02="ac/c2/67" # Base 0B - Green

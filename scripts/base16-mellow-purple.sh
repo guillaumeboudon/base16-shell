@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Mellow Purple scheme by gidsi
 
+export BASE16_COLOR_00="1e0528"
+export BASE16_COLOR_01="1A092D"
+export BASE16_COLOR_02="331354"
+export BASE16_COLOR_03="320f55"
+export BASE16_COLOR_04="873582"
+export BASE16_COLOR_05="ffeeff"
+export BASE16_COLOR_06="ffeeff"
+export BASE16_COLOR_07="f8c0ff"
+export BASE16_COLOR_08="00d9e9"
+export BASE16_COLOR_09="aa00a3"
+export BASE16_COLOR_0A="955ae7"
+export BASE16_COLOR_0B="05cb0d"
+export BASE16_COLOR_0C="b900b1"
+export BASE16_COLOR_0D="550068"
+export BASE16_COLOR_0E="8991bb"
+export BASE16_COLOR_0F="4d6fff"
+
 color00="1e/05/28" # Base 00 - Black
 color01="00/d9/e9" # Base 08 - Red
 color02="05/cb/0d" # Base 0B - Green

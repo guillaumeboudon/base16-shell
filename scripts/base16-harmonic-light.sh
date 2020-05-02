@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Harmonic16 Light scheme by Jannik Siebert (https://github.com/janniks)
 
+export BASE16_COLOR_00="f7f9fb"
+export BASE16_COLOR_01="e5ebf1"
+export BASE16_COLOR_02="cbd6e2"
+export BASE16_COLOR_03="aabcce"
+export BASE16_COLOR_04="627e99"
+export BASE16_COLOR_05="405c79"
+export BASE16_COLOR_06="223b54"
+export BASE16_COLOR_07="0b1c2c"
+export BASE16_COLOR_08="bf8b56"
+export BASE16_COLOR_09="bfbf56"
+export BASE16_COLOR_0A="8bbf56"
+export BASE16_COLOR_0B="56bf8b"
+export BASE16_COLOR_0C="568bbf"
+export BASE16_COLOR_0D="8b56bf"
+export BASE16_COLOR_0E="bf568b"
+export BASE16_COLOR_0F="bf5656"
+
 color00="f7/f9/fb" # Base 00 - Black
 color01="bf/8b/56" # Base 08 - Red
 color02="56/bf/8b" # Base 0B - Green

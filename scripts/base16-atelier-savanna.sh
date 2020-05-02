@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atelier Savanna scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
+export BASE16_COLOR_00="171c19"
+export BASE16_COLOR_01="232a25"
+export BASE16_COLOR_02="526057"
+export BASE16_COLOR_03="5f6d64"
+export BASE16_COLOR_04="78877d"
+export BASE16_COLOR_05="87928a"
+export BASE16_COLOR_06="dfe7e2"
+export BASE16_COLOR_07="ecf4ee"
+export BASE16_COLOR_08="b16139"
+export BASE16_COLOR_09="9f713c"
+export BASE16_COLOR_0A="a07e3b"
+export BASE16_COLOR_0B="489963"
+export BASE16_COLOR_0C="1c9aa0"
+export BASE16_COLOR_0D="478c90"
+export BASE16_COLOR_0E="55859b"
+export BASE16_COLOR_0F="867469"
+
 color00="17/1c/19" # Base 00 - Black
 color01="b1/61/39" # Base 08 - Red
 color02="48/99/63" # Base 0B - Green

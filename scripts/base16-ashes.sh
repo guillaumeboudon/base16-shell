@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Ashes scheme by Jannik Siebert (https://github.com/janniks)
 
+export BASE16_COLOR_00="1C2023"
+export BASE16_COLOR_01="393F45"
+export BASE16_COLOR_02="565E65"
+export BASE16_COLOR_03="747C84"
+export BASE16_COLOR_04="ADB3BA"
+export BASE16_COLOR_05="C7CCD1"
+export BASE16_COLOR_06="DFE2E5"
+export BASE16_COLOR_07="F3F4F5"
+export BASE16_COLOR_08="C7AE95"
+export BASE16_COLOR_09="C7C795"
+export BASE16_COLOR_0A="AEC795"
+export BASE16_COLOR_0B="95C7AE"
+export BASE16_COLOR_0C="95AEC7"
+export BASE16_COLOR_0D="AE95C7"
+export BASE16_COLOR_0E="C795AE"
+export BASE16_COLOR_0F="C79595"
+
 color00="1C/20/23" # Base 00 - Black
 color01="C7/AE/95" # Base 08 - Red
 color02="95/C7/AE" # Base 0B - Green

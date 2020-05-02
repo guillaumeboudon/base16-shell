@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # PhD scheme by Hennig Hasemann (http://leetless.de/vim.html)
 
+export BASE16_COLOR_00="061229"
+export BASE16_COLOR_01="2a3448"
+export BASE16_COLOR_02="4d5666"
+export BASE16_COLOR_03="717885"
+export BASE16_COLOR_04="9a99a3"
+export BASE16_COLOR_05="b8bbc2"
+export BASE16_COLOR_06="dbdde0"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="d07346"
+export BASE16_COLOR_09="f0a000"
+export BASE16_COLOR_0A="fbd461"
+export BASE16_COLOR_0B="99bf52"
+export BASE16_COLOR_0C="72b9bf"
+export BASE16_COLOR_0D="5299bf"
+export BASE16_COLOR_0E="9989cc"
+export BASE16_COLOR_0F="b08060"
+
 color00="06/12/29" # Base 00 - Black
 color01="d0/73/46" # Base 08 - Red
 color02="99/bf/52" # Base 0B - Green

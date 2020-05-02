@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Google Light scheme by Seth Wright (http://sethawright.com)
 
+export BASE16_COLOR_00="ffffff"
+export BASE16_COLOR_01="e0e0e0"
+export BASE16_COLOR_02="c5c8c6"
+export BASE16_COLOR_03="b4b7b4"
+export BASE16_COLOR_04="969896"
+export BASE16_COLOR_05="373b41"
+export BASE16_COLOR_06="282a2e"
+export BASE16_COLOR_07="1d1f21"
+export BASE16_COLOR_08="CC342B"
+export BASE16_COLOR_09="F96A38"
+export BASE16_COLOR_0A="FBA922"
+export BASE16_COLOR_0B="198844"
+export BASE16_COLOR_0C="3971ED"
+export BASE16_COLOR_0D="3971ED"
+export BASE16_COLOR_0E="A36AC7"
+export BASE16_COLOR_0F="3971ED"
+
 color00="ff/ff/ff" # Base 00 - Black
 color01="CC/34/2B" # Base 08 - Red
 color02="19/88/44" # Base 0B - Green

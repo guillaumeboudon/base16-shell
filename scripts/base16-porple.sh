@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Porple scheme by Niek den Breeje (https://github.com/AuditeMarlow)
 
+export BASE16_COLOR_00="292c36"
+export BASE16_COLOR_01="333344"
+export BASE16_COLOR_02="474160"
+export BASE16_COLOR_03="65568a"
+export BASE16_COLOR_04="b8b8b8"
+export BASE16_COLOR_05="d8d8d8"
+export BASE16_COLOR_06="e8e8e8"
+export BASE16_COLOR_07="f8f8f8"
+export BASE16_COLOR_08="f84547"
+export BASE16_COLOR_09="d28e5d"
+export BASE16_COLOR_0A="efa16b"
+export BASE16_COLOR_0B="95c76f"
+export BASE16_COLOR_0C="64878f"
+export BASE16_COLOR_0D="8485ce"
+export BASE16_COLOR_0E="b74989"
+export BASE16_COLOR_0F="986841"
+
 color00="29/2c/36" # Base 00 - Black
 color01="f8/45/47" # Base 08 - Red
 color02="95/c7/6f" # Base 0B - Green

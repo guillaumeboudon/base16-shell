@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # PaperColor Dark scheme by Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
 
+export BASE16_COLOR_00="1c1c1c"
+export BASE16_COLOR_01="af005f"
+export BASE16_COLOR_02="5faf00"
+export BASE16_COLOR_03="d7af5f"
+export BASE16_COLOR_04="5fafd7"
+export BASE16_COLOR_05="808080"
+export BASE16_COLOR_06="d7875f"
+export BASE16_COLOR_07="d0d0d0"
+export BASE16_COLOR_08="585858"
+export BASE16_COLOR_09="5faf5f"
+export BASE16_COLOR_0A="afd700"
+export BASE16_COLOR_0B="af87d7"
+export BASE16_COLOR_0C="ffaf00"
+export BASE16_COLOR_0D="ff5faf"
+export BASE16_COLOR_0E="00afaf"
+export BASE16_COLOR_0F="5f8787"
+
 color00="1c/1c/1c" # Base 00 - Black
 color01="58/58/58" # Base 08 - Red
 color02="af/87/d7" # Base 0B - Green

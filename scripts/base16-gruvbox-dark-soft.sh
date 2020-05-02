@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Gruvbox dark, soft scheme by Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 
+export BASE16_COLOR_00="32302f"
+export BASE16_COLOR_01="3c3836"
+export BASE16_COLOR_02="504945"
+export BASE16_COLOR_03="665c54"
+export BASE16_COLOR_04="bdae93"
+export BASE16_COLOR_05="d5c4a1"
+export BASE16_COLOR_06="ebdbb2"
+export BASE16_COLOR_07="fbf1c7"
+export BASE16_COLOR_08="fb4934"
+export BASE16_COLOR_09="fe8019"
+export BASE16_COLOR_0A="fabd2f"
+export BASE16_COLOR_0B="b8bb26"
+export BASE16_COLOR_0C="8ec07c"
+export BASE16_COLOR_0D="83a598"
+export BASE16_COLOR_0E="d3869b"
+export BASE16_COLOR_0F="d65d0e"
+
 color00="32/30/2f" # Base 00 - Black
 color01="fb/49/34" # Base 08 - Red
 color02="b8/bb/26" # Base 0B - Green

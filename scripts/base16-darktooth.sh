@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Darktooth scheme by Jason Milkins (https://github.com/jasonm23)
 
+export BASE16_COLOR_00="1D2021"
+export BASE16_COLOR_01="32302F"
+export BASE16_COLOR_02="504945"
+export BASE16_COLOR_03="665C54"
+export BASE16_COLOR_04="928374"
+export BASE16_COLOR_05="A89984"
+export BASE16_COLOR_06="D5C4A1"
+export BASE16_COLOR_07="FDF4C1"
+export BASE16_COLOR_08="FB543F"
+export BASE16_COLOR_09="FE8625"
+export BASE16_COLOR_0A="FAC03B"
+export BASE16_COLOR_0B="95C085"
+export BASE16_COLOR_0C="8BA59B"
+export BASE16_COLOR_0D="0D6678"
+export BASE16_COLOR_0E="8F4673"
+export BASE16_COLOR_0F="A87322"
+
 color00="1D/20/21" # Base 00 - Black
 color01="FB/54/3F" # Base 08 - Red
 color02="95/C0/85" # Base 0B - Green

@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Material Lighter scheme by Nate Peterson
 
+export BASE16_COLOR_00="FAFAFA"
+export BASE16_COLOR_01="E7EAEC"
+export BASE16_COLOR_02="CCEAE7"
+export BASE16_COLOR_03="CCD7DA"
+export BASE16_COLOR_04="8796B0"
+export BASE16_COLOR_05="80CBC4"
+export BASE16_COLOR_06="80CBC4"
+export BASE16_COLOR_07="FFFFFF"
+export BASE16_COLOR_08="FF5370"
+export BASE16_COLOR_09="F76D47"
+export BASE16_COLOR_0A="FFB62C"
+export BASE16_COLOR_0B="91B859"
+export BASE16_COLOR_0C="39ADB5"
+export BASE16_COLOR_0D="6182B8"
+export BASE16_COLOR_0E="7C4DFF"
+export BASE16_COLOR_0F="E53935"
+
 color00="FA/FA/FA" # Base 00 - Black
 color01="FF/53/70" # Base 08 - Red
 color02="91/B8/59" # Base 0B - Green

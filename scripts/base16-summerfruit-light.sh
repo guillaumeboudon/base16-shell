@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Summerfruit Light scheme by Christopher Corley (http://christop.club/)
 
+export BASE16_COLOR_00="FFFFFF"
+export BASE16_COLOR_01="E0E0E0"
+export BASE16_COLOR_02="D0D0D0"
+export BASE16_COLOR_03="B0B0B0"
+export BASE16_COLOR_04="000000"
+export BASE16_COLOR_05="101010"
+export BASE16_COLOR_06="151515"
+export BASE16_COLOR_07="202020"
+export BASE16_COLOR_08="FF0086"
+export BASE16_COLOR_09="FD8900"
+export BASE16_COLOR_0A="ABA800"
+export BASE16_COLOR_0B="00C918"
+export BASE16_COLOR_0C="1FAAAA"
+export BASE16_COLOR_0D="3777E6"
+export BASE16_COLOR_0E="AD00A1"
+export BASE16_COLOR_0F="CC6633"
+
 color00="FF/FF/FF" # Base 00 - Black
 color01="FF/00/86" # Base 08 - Red
 color02="00/C9/18" # Base 0B - Green

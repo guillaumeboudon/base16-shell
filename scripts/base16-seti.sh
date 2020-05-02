@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Seti UI scheme by 
 
+export BASE16_COLOR_00="151718"
+export BASE16_COLOR_01="282a2b"
+export BASE16_COLOR_02="3B758C"
+export BASE16_COLOR_03="41535B"
+export BASE16_COLOR_04="43a5d5"
+export BASE16_COLOR_05="d6d6d6"
+export BASE16_COLOR_06="eeeeee"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="Cd3f45"
+export BASE16_COLOR_09="db7b55"
+export BASE16_COLOR_0A="e6cd69"
+export BASE16_COLOR_0B="9fca56"
+export BASE16_COLOR_0C="55dbbe"
+export BASE16_COLOR_0D="55b5db"
+export BASE16_COLOR_0E="a074c4"
+export BASE16_COLOR_0F="8a553f"
+
 color00="15/17/18" # Base 00 - Black
 color01="Cd/3f/45" # Base 08 - Red
 color02="9f/ca/56" # Base 0B - Green

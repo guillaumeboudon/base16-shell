@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Icy Dark scheme by icyphox (https://icyphox.ga)
 
+export BASE16_COLOR_00="021012"
+export BASE16_COLOR_01="031619"
+export BASE16_COLOR_02="041f23"
+export BASE16_COLOR_03="052e34"
+export BASE16_COLOR_04="064048"
+export BASE16_COLOR_05="095b67"
+export BASE16_COLOR_06="0c7c8c"
+export BASE16_COLOR_07="109cb0"
+export BASE16_COLOR_08="16c1d9"
+export BASE16_COLOR_09="b3ebf2"
+export BASE16_COLOR_0A="80deea"
+export BASE16_COLOR_0B="4dd0e1"
+export BASE16_COLOR_0C="26c6da"
+export BASE16_COLOR_0D="00bcd4"
+export BASE16_COLOR_0E="00acc1"
+export BASE16_COLOR_0F="0097a7"
+
 color00="02/10/12" # Base 00 - Black
 color01="16/c1/d9" # Base 08 - Red
 color02="4d/d0/e1" # Base 0B - Green

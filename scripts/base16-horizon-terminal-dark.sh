@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Horizon Dark scheme by Michaël Ball (http://github.com/michael-ball/)
 
+export BASE16_COLOR_00="1C1E26"
+export BASE16_COLOR_01="232530"
+export BASE16_COLOR_02="2E303E"
+export BASE16_COLOR_03="6F6F70"
+export BASE16_COLOR_04="9DA0A2"
+export BASE16_COLOR_05="CBCED0"
+export BASE16_COLOR_06="DCDFE4"
+export BASE16_COLOR_07="E3E6EE"
+export BASE16_COLOR_08="E95678"
+export BASE16_COLOR_09="FAB795"
+export BASE16_COLOR_0A="FAC29A"
+export BASE16_COLOR_0B="29D398"
+export BASE16_COLOR_0C="59E1E3"
+export BASE16_COLOR_0D="26BBD9"
+export BASE16_COLOR_0E="EE64AC"
+export BASE16_COLOR_0F="F09383"
+
 color00="1C/1E/26" # Base 00 - Black
 color01="E9/56/78" # Base 08 - Red
 color02="29/D3/98" # Base 0B - Green

@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # One Light scheme by Daniel Pfeifer (http://github.com/purpleKarrot)
 
+export BASE16_COLOR_00="fafafa"
+export BASE16_COLOR_01="f0f0f1"
+export BASE16_COLOR_02="e5e5e6"
+export BASE16_COLOR_03="a0a1a7"
+export BASE16_COLOR_04="696c77"
+export BASE16_COLOR_05="383a42"
+export BASE16_COLOR_06="202227"
+export BASE16_COLOR_07="090a0b"
+export BASE16_COLOR_08="ca1243"
+export BASE16_COLOR_09="d75f00"
+export BASE16_COLOR_0A="c18401"
+export BASE16_COLOR_0B="50a14f"
+export BASE16_COLOR_0C="0184bc"
+export BASE16_COLOR_0D="4078f2"
+export BASE16_COLOR_0E="a626a4"
+export BASE16_COLOR_0F="986801"
+
 color00="fa/fa/fa" # Base 00 - Black
 color01="ca/12/43" # Base 08 - Red
 color02="50/a1/4f" # Base 0B - Green

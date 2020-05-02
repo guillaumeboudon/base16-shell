@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Ocean scheme by Chris Kempson (http://chriskempson.com)
 
+export BASE16_COLOR_00="2b303b"
+export BASE16_COLOR_01="343d46"
+export BASE16_COLOR_02="4f5b66"
+export BASE16_COLOR_03="65737e"
+export BASE16_COLOR_04="a7adba"
+export BASE16_COLOR_05="c0c5ce"
+export BASE16_COLOR_06="dfe1e8"
+export BASE16_COLOR_07="eff1f5"
+export BASE16_COLOR_08="bf616a"
+export BASE16_COLOR_09="d08770"
+export BASE16_COLOR_0A="ebcb8b"
+export BASE16_COLOR_0B="a3be8c"
+export BASE16_COLOR_0C="96b5b4"
+export BASE16_COLOR_0D="8fa1b3"
+export BASE16_COLOR_0E="b48ead"
+export BASE16_COLOR_0F="ab7967"
+
 color00="2b/30/3b" # Base 00 - Black
 color01="bf/61/6a" # Base 08 - Red
 color02="a3/be/8c" # Base 0B - Green

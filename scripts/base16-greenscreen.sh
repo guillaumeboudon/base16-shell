@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Green Screen scheme by Chris Kempson (http://chriskempson.com)
 
+export BASE16_COLOR_00="001100"
+export BASE16_COLOR_01="003300"
+export BASE16_COLOR_02="005500"
+export BASE16_COLOR_03="007700"
+export BASE16_COLOR_04="009900"
+export BASE16_COLOR_05="00bb00"
+export BASE16_COLOR_06="00dd00"
+export BASE16_COLOR_07="00ff00"
+export BASE16_COLOR_08="007700"
+export BASE16_COLOR_09="009900"
+export BASE16_COLOR_0A="007700"
+export BASE16_COLOR_0B="00bb00"
+export BASE16_COLOR_0C="005500"
+export BASE16_COLOR_0D="009900"
+export BASE16_COLOR_0E="00bb00"
+export BASE16_COLOR_0F="005500"
+
 color00="00/11/00" # Base 00 - Black
 color01="00/77/00" # Base 08 - Red
 color02="00/bb/00" # Base 0B - Green

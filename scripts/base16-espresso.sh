@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Espresso scheme by Alex Mirrington (https://github.com/alexmirrington)
 
+export BASE16_COLOR_00="2d2d2d"
+export BASE16_COLOR_01="393939"
+export BASE16_COLOR_02="515151"
+export BASE16_COLOR_03="777777"
+export BASE16_COLOR_04="b4b7b4"
+export BASE16_COLOR_05="cccccc"
+export BASE16_COLOR_06="e0e0e0"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="d25252"
+export BASE16_COLOR_09="f9a959"
+export BASE16_COLOR_0A="ffc66d"
+export BASE16_COLOR_0B="a5c261"
+export BASE16_COLOR_0C="bed6ff"
+export BASE16_COLOR_0D="6c99bb"
+export BASE16_COLOR_0E="d197d9"
+export BASE16_COLOR_0F="f97394"
+
 color00="2d/2d/2d" # Base 00 - Black
 color01="d2/52/52" # Base 08 - Red
 color02="a5/c2/61" # Base 0B - Green

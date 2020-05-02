@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Twilight scheme by David Hart (https://github.com/hartbit)
 
+export BASE16_COLOR_00="1e1e1e"
+export BASE16_COLOR_01="323537"
+export BASE16_COLOR_02="464b50"
+export BASE16_COLOR_03="5f5a60"
+export BASE16_COLOR_04="838184"
+export BASE16_COLOR_05="a7a7a7"
+export BASE16_COLOR_06="c3c3c3"
+export BASE16_COLOR_07="ffffff"
+export BASE16_COLOR_08="cf6a4c"
+export BASE16_COLOR_09="cda869"
+export BASE16_COLOR_0A="f9ee98"
+export BASE16_COLOR_0B="8f9d6a"
+export BASE16_COLOR_0C="afc4db"
+export BASE16_COLOR_0D="7587a6"
+export BASE16_COLOR_0E="9b859d"
+export BASE16_COLOR_0F="9b703f"
+
 color00="1e/1e/1e" # Base 00 - Black
 color01="cf/6a/4c" # Base 08 - Red
 color02="8f/9d/6a" # Base 0B - Green

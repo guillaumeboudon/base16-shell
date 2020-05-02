@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Shapeshifter scheme by Tyler Benziger (http://tybenz.com)
 
+export BASE16_COLOR_00="f9f9f9"
+export BASE16_COLOR_01="e0e0e0"
+export BASE16_COLOR_02="ababab"
+export BASE16_COLOR_03="555555"
+export BASE16_COLOR_04="343434"
+export BASE16_COLOR_05="102015"
+export BASE16_COLOR_06="040404"
+export BASE16_COLOR_07="000000"
+export BASE16_COLOR_08="e92f2f"
+export BASE16_COLOR_09="e09448"
+export BASE16_COLOR_0A="dddd13"
+export BASE16_COLOR_0B="0ed839"
+export BASE16_COLOR_0C="23edda"
+export BASE16_COLOR_0D="3b48e3"
+export BASE16_COLOR_0E="f996e2"
+export BASE16_COLOR_0F="69542d"
+
 color00="f9/f9/f9" # Base 00 - Black
 color01="e9/2f/2f" # Base 08 - Red
 color02="0e/d8/39" # Base 0B - Green

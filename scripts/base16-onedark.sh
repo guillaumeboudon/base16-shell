@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # OneDark scheme by Lalit Magant (http://github.com/tilal6991)
 
+export BASE16_COLOR_00="282c34"
+export BASE16_COLOR_01="353b45"
+export BASE16_COLOR_02="3e4451"
+export BASE16_COLOR_03="545862"
+export BASE16_COLOR_04="565c64"
+export BASE16_COLOR_05="abb2bf"
+export BASE16_COLOR_06="b6bdca"
+export BASE16_COLOR_07="c8ccd4"
+export BASE16_COLOR_08="e06c75"
+export BASE16_COLOR_09="d19a66"
+export BASE16_COLOR_0A="e5c07b"
+export BASE16_COLOR_0B="98c379"
+export BASE16_COLOR_0C="56b6c2"
+export BASE16_COLOR_0D="61afef"
+export BASE16_COLOR_0E="c678dd"
+export BASE16_COLOR_0F="be5046"
+
 color00="28/2c/34" # Base 00 - Black
 color01="e0/6c/75" # Base 08 - Red
 color02="98/c3/79" # Base 0B - Green

@@ -3,6 +3,23 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Black Metal (Gorgoroth) scheme by metalelf0 (https://github.com/metalelf0)
 
+export BASE16_COLOR_00="000000"
+export BASE16_COLOR_01="121212"
+export BASE16_COLOR_02="222222"
+export BASE16_COLOR_03="333333"
+export BASE16_COLOR_04="999999"
+export BASE16_COLOR_05="c1c1c1"
+export BASE16_COLOR_06="999999"
+export BASE16_COLOR_07="c1c1c1"
+export BASE16_COLOR_08="5f8787"
+export BASE16_COLOR_09="aaaaaa"
+export BASE16_COLOR_0A="8c7f70"
+export BASE16_COLOR_0B="9b8d7f"
+export BASE16_COLOR_0C="aaaaaa"
+export BASE16_COLOR_0D="888888"
+export BASE16_COLOR_0E="999999"
+export BASE16_COLOR_0F="444444"
+
 color00="00/00/00" # Base 00 - Black
 color01="5f/87/87" # Base 08 - Red
 color02="9b/8d/7f" # Base 0B - Green
