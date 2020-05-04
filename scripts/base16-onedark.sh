@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # OneDark scheme by Lalit Magant (http://github.com/tilal6991)
 
-export BASE16_COLOR_00="282c34"
-export BASE16_COLOR_01="353b45"
-export BASE16_COLOR_02="3e4451"
-export BASE16_COLOR_03="545862"
-export BASE16_COLOR_04="565c64"
-export BASE16_COLOR_05="abb2bf"
-export BASE16_COLOR_06="b6bdca"
-export BASE16_COLOR_07="c8ccd4"
-export BASE16_COLOR_08="e06c75"
-export BASE16_COLOR_09="d19a66"
-export BASE16_COLOR_0A="e5c07b"
-export BASE16_COLOR_0B="98c379"
-export BASE16_COLOR_0C="56b6c2"
-export BASE16_COLOR_0D="61afef"
-export BASE16_COLOR_0E="c678dd"
-export BASE16_COLOR_0F="be5046"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "282c34"
+let g:base16_color_01 = "353b45"
+let g:base16_color_02 = "3e4451"
+let g:base16_color_03 = "545862"
+let g:base16_color_04 = "565c64"
+let g:base16_color_05 = "abb2bf"
+let g:base16_color_06 = "b6bdca"
+let g:base16_color_07 = "c8ccd4"
+let g:base16_color_08 = "e06c75"
+let g:base16_color_09 = "d19a66"
+let g:base16_color_0A = "e5c07b"
+let g:base16_color_0B = "98c379"
+let g:base16_color_0C = "56b6c2"
+let g:base16_color_0D = "61afef"
+let g:base16_color_0E = "c678dd"
+let g:base16_color_0F = "be5046"
+EOF
 
 color00="28/2c/34" # Base 00 - Black
 color01="e0/6c/75" # Base 08 - Red

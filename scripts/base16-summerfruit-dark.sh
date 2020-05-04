@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Summerfruit Dark scheme by Christopher Corley (http://christop.club/)
 
-export BASE16_COLOR_00="151515"
-export BASE16_COLOR_01="202020"
-export BASE16_COLOR_02="303030"
-export BASE16_COLOR_03="505050"
-export BASE16_COLOR_04="B0B0B0"
-export BASE16_COLOR_05="D0D0D0"
-export BASE16_COLOR_06="E0E0E0"
-export BASE16_COLOR_07="FFFFFF"
-export BASE16_COLOR_08="FF0086"
-export BASE16_COLOR_09="FD8900"
-export BASE16_COLOR_0A="ABA800"
-export BASE16_COLOR_0B="00C918"
-export BASE16_COLOR_0C="1FAAAA"
-export BASE16_COLOR_0D="3777E6"
-export BASE16_COLOR_0E="AD00A1"
-export BASE16_COLOR_0F="CC6633"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "151515"
+let g:base16_color_01 = "202020"
+let g:base16_color_02 = "303030"
+let g:base16_color_03 = "505050"
+let g:base16_color_04 = "B0B0B0"
+let g:base16_color_05 = "D0D0D0"
+let g:base16_color_06 = "E0E0E0"
+let g:base16_color_07 = "FFFFFF"
+let g:base16_color_08 = "FF0086"
+let g:base16_color_09 = "FD8900"
+let g:base16_color_0A = "ABA800"
+let g:base16_color_0B = "00C918"
+let g:base16_color_0C = "1FAAAA"
+let g:base16_color_0D = "3777E6"
+let g:base16_color_0E = "AD00A1"
+let g:base16_color_0F = "CC6633"
+EOF
 
 color00="15/15/15" # Base 00 - Black
 color01="FF/00/86" # Base 08 - Red

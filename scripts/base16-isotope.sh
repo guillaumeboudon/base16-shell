@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Isotope scheme by Jan T. Sott
 
-export BASE16_COLOR_00="000000"
-export BASE16_COLOR_01="404040"
-export BASE16_COLOR_02="606060"
-export BASE16_COLOR_03="808080"
-export BASE16_COLOR_04="c0c0c0"
-export BASE16_COLOR_05="d0d0d0"
-export BASE16_COLOR_06="e0e0e0"
-export BASE16_COLOR_07="ffffff"
-export BASE16_COLOR_08="ff0000"
-export BASE16_COLOR_09="ff9900"
-export BASE16_COLOR_0A="ff0099"
-export BASE16_COLOR_0B="33ff00"
-export BASE16_COLOR_0C="00ffff"
-export BASE16_COLOR_0D="0066ff"
-export BASE16_COLOR_0E="cc00ff"
-export BASE16_COLOR_0F="3300ff"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "000000"
+let g:base16_color_01 = "404040"
+let g:base16_color_02 = "606060"
+let g:base16_color_03 = "808080"
+let g:base16_color_04 = "c0c0c0"
+let g:base16_color_05 = "d0d0d0"
+let g:base16_color_06 = "e0e0e0"
+let g:base16_color_07 = "ffffff"
+let g:base16_color_08 = "ff0000"
+let g:base16_color_09 = "ff9900"
+let g:base16_color_0A = "ff0099"
+let g:base16_color_0B = "33ff00"
+let g:base16_color_0C = "00ffff"
+let g:base16_color_0D = "0066ff"
+let g:base16_color_0E = "cc00ff"
+let g:base16_color_0F = "3300ff"
+EOF
 
 color00="00/00/00" # Base 00 - Black
 color01="ff/00/00" # Base 08 - Red

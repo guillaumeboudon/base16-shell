@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Google Dark scheme by Seth Wright (http://sethawright.com)
 
-export BASE16_COLOR_00="1d1f21"
-export BASE16_COLOR_01="282a2e"
-export BASE16_COLOR_02="373b41"
-export BASE16_COLOR_03="969896"
-export BASE16_COLOR_04="b4b7b4"
-export BASE16_COLOR_05="c5c8c6"
-export BASE16_COLOR_06="e0e0e0"
-export BASE16_COLOR_07="ffffff"
-export BASE16_COLOR_08="CC342B"
-export BASE16_COLOR_09="F96A38"
-export BASE16_COLOR_0A="FBA922"
-export BASE16_COLOR_0B="198844"
-export BASE16_COLOR_0C="3971ED"
-export BASE16_COLOR_0D="3971ED"
-export BASE16_COLOR_0E="A36AC7"
-export BASE16_COLOR_0F="3971ED"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1d1f21"
+let g:base16_color_01 = "282a2e"
+let g:base16_color_02 = "373b41"
+let g:base16_color_03 = "969896"
+let g:base16_color_04 = "b4b7b4"
+let g:base16_color_05 = "c5c8c6"
+let g:base16_color_06 = "e0e0e0"
+let g:base16_color_07 = "ffffff"
+let g:base16_color_08 = "CC342B"
+let g:base16_color_09 = "F96A38"
+let g:base16_color_0A = "FBA922"
+let g:base16_color_0B = "198844"
+let g:base16_color_0C = "3971ED"
+let g:base16_color_0D = "3971ED"
+let g:base16_color_0E = "A36AC7"
+let g:base16_color_0F = "3971ED"
+EOF
 
 color00="1d/1f/21" # Base 00 - Black
 color01="CC/34/2B" # Base 08 - Red

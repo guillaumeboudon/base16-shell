@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Hopscotch scheme by Jan T. Sott
 
-export BASE16_COLOR_00="322931"
-export BASE16_COLOR_01="433b42"
-export BASE16_COLOR_02="5c545b"
-export BASE16_COLOR_03="797379"
-export BASE16_COLOR_04="989498"
-export BASE16_COLOR_05="b9b5b8"
-export BASE16_COLOR_06="d5d3d5"
-export BASE16_COLOR_07="ffffff"
-export BASE16_COLOR_08="dd464c"
-export BASE16_COLOR_09="fd8b19"
-export BASE16_COLOR_0A="fdcc59"
-export BASE16_COLOR_0B="8fc13e"
-export BASE16_COLOR_0C="149b93"
-export BASE16_COLOR_0D="1290bf"
-export BASE16_COLOR_0E="c85e7c"
-export BASE16_COLOR_0F="b33508"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "322931"
+let g:base16_color_01 = "433b42"
+let g:base16_color_02 = "5c545b"
+let g:base16_color_03 = "797379"
+let g:base16_color_04 = "989498"
+let g:base16_color_05 = "b9b5b8"
+let g:base16_color_06 = "d5d3d5"
+let g:base16_color_07 = "ffffff"
+let g:base16_color_08 = "dd464c"
+let g:base16_color_09 = "fd8b19"
+let g:base16_color_0A = "fdcc59"
+let g:base16_color_0B = "8fc13e"
+let g:base16_color_0C = "149b93"
+let g:base16_color_0D = "1290bf"
+let g:base16_color_0E = "c85e7c"
+let g:base16_color_0F = "b33508"
+EOF
 
 color00="32/29/31" # Base 00 - Black
 color01="dd/46/4c" # Base 08 - Red

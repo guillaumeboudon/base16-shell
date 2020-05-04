@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Nord scheme by arcticicestudio
 
-export BASE16_COLOR_00="2E3440"
-export BASE16_COLOR_01="3B4252"
-export BASE16_COLOR_02="434C5E"
-export BASE16_COLOR_03="4C566A"
-export BASE16_COLOR_04="D8DEE9"
-export BASE16_COLOR_05="E5E9F0"
-export BASE16_COLOR_06="ECEFF4"
-export BASE16_COLOR_07="8FBCBB"
-export BASE16_COLOR_08="BF616A"
-export BASE16_COLOR_09="D08770"
-export BASE16_COLOR_0A="EBCB8B"
-export BASE16_COLOR_0B="A3BE8C"
-export BASE16_COLOR_0C="88C0D0"
-export BASE16_COLOR_0D="81A1C1"
-export BASE16_COLOR_0E="B48EAD"
-export BASE16_COLOR_0F="5E81AC"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "2E3440"
+let g:base16_color_01 = "3B4252"
+let g:base16_color_02 = "434C5E"
+let g:base16_color_03 = "4C566A"
+let g:base16_color_04 = "D8DEE9"
+let g:base16_color_05 = "E5E9F0"
+let g:base16_color_06 = "ECEFF4"
+let g:base16_color_07 = "8FBCBB"
+let g:base16_color_08 = "BF616A"
+let g:base16_color_09 = "D08770"
+let g:base16_color_0A = "EBCB8B"
+let g:base16_color_0B = "A3BE8C"
+let g:base16_color_0C = "88C0D0"
+let g:base16_color_0D = "81A1C1"
+let g:base16_color_0E = "B48EAD"
+let g:base16_color_0F = "5E81AC"
+EOF
 
 color00="2E/34/40" # Base 00 - Black
 color01="BF/61/6A" # Base 08 - Red

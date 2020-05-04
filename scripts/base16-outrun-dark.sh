@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Outrun Dark scheme by Hugo Delahousse (http://github.com/hugodelahousse/)
 
-export BASE16_COLOR_00="00002A"
-export BASE16_COLOR_01="20204A"
-export BASE16_COLOR_02="30305A"
-export BASE16_COLOR_03="50507A"
-export BASE16_COLOR_04="B0B0DA"
-export BASE16_COLOR_05="D0D0FA"
-export BASE16_COLOR_06="E0E0FF"
-export BASE16_COLOR_07="F5F5FF"
-export BASE16_COLOR_08="FF4242"
-export BASE16_COLOR_09="FC8D28"
-export BASE16_COLOR_0A="F3E877"
-export BASE16_COLOR_0B="59F176"
-export BASE16_COLOR_0C="0EF0F0"
-export BASE16_COLOR_0D="66B0FF"
-export BASE16_COLOR_0E="F10596"
-export BASE16_COLOR_0F="F003EF"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "00002A"
+let g:base16_color_01 = "20204A"
+let g:base16_color_02 = "30305A"
+let g:base16_color_03 = "50507A"
+let g:base16_color_04 = "B0B0DA"
+let g:base16_color_05 = "D0D0FA"
+let g:base16_color_06 = "E0E0FF"
+let g:base16_color_07 = "F5F5FF"
+let g:base16_color_08 = "FF4242"
+let g:base16_color_09 = "FC8D28"
+let g:base16_color_0A = "F3E877"
+let g:base16_color_0B = "59F176"
+let g:base16_color_0C = "0EF0F0"
+let g:base16_color_0D = "66B0FF"
+let g:base16_color_0E = "F10596"
+let g:base16_color_0F = "F003EF"
+EOF
 
 color00="00/00/2A" # Base 00 - Black
 color01="FF/42/42" # Base 08 - Red

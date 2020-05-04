@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Woodland scheme by Jay Cornwall (https://jcornwall.com)
 
-export BASE16_COLOR_00="231e18"
-export BASE16_COLOR_01="302b25"
-export BASE16_COLOR_02="48413a"
-export BASE16_COLOR_03="9d8b70"
-export BASE16_COLOR_04="b4a490"
-export BASE16_COLOR_05="cabcb1"
-export BASE16_COLOR_06="d7c8bc"
-export BASE16_COLOR_07="e4d4c8"
-export BASE16_COLOR_08="d35c5c"
-export BASE16_COLOR_09="ca7f32"
-export BASE16_COLOR_0A="e0ac16"
-export BASE16_COLOR_0B="b7ba53"
-export BASE16_COLOR_0C="6eb958"
-export BASE16_COLOR_0D="88a4d3"
-export BASE16_COLOR_0E="bb90e2"
-export BASE16_COLOR_0F="b49368"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "231e18"
+let g:base16_color_01 = "302b25"
+let g:base16_color_02 = "48413a"
+let g:base16_color_03 = "9d8b70"
+let g:base16_color_04 = "b4a490"
+let g:base16_color_05 = "cabcb1"
+let g:base16_color_06 = "d7c8bc"
+let g:base16_color_07 = "e4d4c8"
+let g:base16_color_08 = "d35c5c"
+let g:base16_color_09 = "ca7f32"
+let g:base16_color_0A = "e0ac16"
+let g:base16_color_0B = "b7ba53"
+let g:base16_color_0C = "6eb958"
+let g:base16_color_0D = "88a4d3"
+let g:base16_color_0E = "bb90e2"
+let g:base16_color_0F = "b49368"
+EOF
 
 color00="23/1e/18" # Base 00 - Black
 color01="d3/5c/5c" # Base 08 - Red

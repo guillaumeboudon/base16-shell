@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Edge Light scheme by cjayross (https://github.com/cjayross)
 
-export BASE16_COLOR_00="fafafa"
-export BASE16_COLOR_01="7c9f4b"
-export BASE16_COLOR_02="d69822"
-export BASE16_COLOR_03="5e646f"
-export BASE16_COLOR_04="6587bf"
-export BASE16_COLOR_05="5e646f"
-export BASE16_COLOR_06="b870ce"
-export BASE16_COLOR_07="5e646f"
-export BASE16_COLOR_08="db7070"
-export BASE16_COLOR_09="db7070"
-export BASE16_COLOR_0A="d69822"
-export BASE16_COLOR_0B="7c9f4b"
-export BASE16_COLOR_0C="509c93"
-export BASE16_COLOR_0D="6587bf"
-export BASE16_COLOR_0E="b870ce"
-export BASE16_COLOR_0F="509c93"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "fafafa"
+let g:base16_color_01 = "7c9f4b"
+let g:base16_color_02 = "d69822"
+let g:base16_color_03 = "5e646f"
+let g:base16_color_04 = "6587bf"
+let g:base16_color_05 = "5e646f"
+let g:base16_color_06 = "b870ce"
+let g:base16_color_07 = "5e646f"
+let g:base16_color_08 = "db7070"
+let g:base16_color_09 = "db7070"
+let g:base16_color_0A = "d69822"
+let g:base16_color_0B = "7c9f4b"
+let g:base16_color_0C = "509c93"
+let g:base16_color_0D = "6587bf"
+let g:base16_color_0E = "b870ce"
+let g:base16_color_0F = "509c93"
+EOF
 
 color00="fa/fa/fa" # Base 00 - Black
 color01="db/70/70" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Gigavolt scheme by Aidan Swope (http://github.com/Whillikers)
 
-export BASE16_COLOR_00="202126"
-export BASE16_COLOR_01="2d303d"
-export BASE16_COLOR_02="5a576e"
-export BASE16_COLOR_03="a1d2e6"
-export BASE16_COLOR_04="cad3ff"
-export BASE16_COLOR_05="e9e7e1"
-export BASE16_COLOR_06="eff0f9"
-export BASE16_COLOR_07="f2fbff"
-export BASE16_COLOR_08="ff661a"
-export BASE16_COLOR_09="19f988"
-export BASE16_COLOR_0A="ffdc2d"
-export BASE16_COLOR_0B="f2e6a9"
-export BASE16_COLOR_0C="fb6acb"
-export BASE16_COLOR_0D="40bfff"
-export BASE16_COLOR_0E="ae94f9"
-export BASE16_COLOR_0F="6187ff"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "202126"
+let g:base16_color_01 = "2d303d"
+let g:base16_color_02 = "5a576e"
+let g:base16_color_03 = "a1d2e6"
+let g:base16_color_04 = "cad3ff"
+let g:base16_color_05 = "e9e7e1"
+let g:base16_color_06 = "eff0f9"
+let g:base16_color_07 = "f2fbff"
+let g:base16_color_08 = "ff661a"
+let g:base16_color_09 = "19f988"
+let g:base16_color_0A = "ffdc2d"
+let g:base16_color_0B = "f2e6a9"
+let g:base16_color_0C = "fb6acb"
+let g:base16_color_0D = "40bfff"
+let g:base16_color_0E = "ae94f9"
+let g:base16_color_0F = "6187ff"
+EOF
 
 color00="20/21/26" # Base 00 - Black
 color01="ff/66/1a" # Base 08 - Red

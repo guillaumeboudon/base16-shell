@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Solar Flare scheme by Chuck Harmston (https://chuck.harmston.ch)
 
-export BASE16_COLOR_00="18262F"
-export BASE16_COLOR_01="222E38"
-export BASE16_COLOR_02="586875"
-export BASE16_COLOR_03="667581"
-export BASE16_COLOR_04="85939E"
-export BASE16_COLOR_05="A6AFB8"
-export BASE16_COLOR_06="E8E9ED"
-export BASE16_COLOR_07="F5F7FA"
-export BASE16_COLOR_08="EF5253"
-export BASE16_COLOR_09="E66B2B"
-export BASE16_COLOR_0A="E4B51C"
-export BASE16_COLOR_0B="7CC844"
-export BASE16_COLOR_0C="52CBB0"
-export BASE16_COLOR_0D="33B5E1"
-export BASE16_COLOR_0E="A363D5"
-export BASE16_COLOR_0F="D73C9A"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "18262F"
+let g:base16_color_01 = "222E38"
+let g:base16_color_02 = "586875"
+let g:base16_color_03 = "667581"
+let g:base16_color_04 = "85939E"
+let g:base16_color_05 = "A6AFB8"
+let g:base16_color_06 = "E8E9ED"
+let g:base16_color_07 = "F5F7FA"
+let g:base16_color_08 = "EF5253"
+let g:base16_color_09 = "E66B2B"
+let g:base16_color_0A = "E4B51C"
+let g:base16_color_0B = "7CC844"
+let g:base16_color_0C = "52CBB0"
+let g:base16_color_0D = "33B5E1"
+let g:base16_color_0E = "A363D5"
+let g:base16_color_0F = "D73C9A"
+EOF
 
 color00="18/26/2F" # Base 00 - Black
 color01="EF/52/53" # Base 08 - Red

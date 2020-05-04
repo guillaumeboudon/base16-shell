@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # London Tube scheme by Jan T. Sott
 
-export BASE16_COLOR_00="231f20"
-export BASE16_COLOR_01="1c3f95"
-export BASE16_COLOR_02="5a5758"
-export BASE16_COLOR_03="737171"
-export BASE16_COLOR_04="959ca1"
-export BASE16_COLOR_05="d9d8d8"
-export BASE16_COLOR_06="e7e7e8"
-export BASE16_COLOR_07="ffffff"
-export BASE16_COLOR_08="ee2e24"
-export BASE16_COLOR_09="f386a1"
-export BASE16_COLOR_0A="ffd204"
-export BASE16_COLOR_0B="00853e"
-export BASE16_COLOR_0C="85cebc"
-export BASE16_COLOR_0D="009ddc"
-export BASE16_COLOR_0E="98005d"
-export BASE16_COLOR_0F="b06110"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "231f20"
+let g:base16_color_01 = "1c3f95"
+let g:base16_color_02 = "5a5758"
+let g:base16_color_03 = "737171"
+let g:base16_color_04 = "959ca1"
+let g:base16_color_05 = "d9d8d8"
+let g:base16_color_06 = "e7e7e8"
+let g:base16_color_07 = "ffffff"
+let g:base16_color_08 = "ee2e24"
+let g:base16_color_09 = "f386a1"
+let g:base16_color_0A = "ffd204"
+let g:base16_color_0B = "00853e"
+let g:base16_color_0C = "85cebc"
+let g:base16_color_0D = "009ddc"
+let g:base16_color_0E = "98005d"
+let g:base16_color_0F = "b06110"
+EOF
 
 color00="23/1f/20" # Base 00 - Black
 color01="ee/2e/24" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Pico scheme by PICO-8 (http://www.lexaloffle.com/pico-8.php)
 
-export BASE16_COLOR_00="000000"
-export BASE16_COLOR_01="1d2b53"
-export BASE16_COLOR_02="7e2553"
-export BASE16_COLOR_03="008751"
-export BASE16_COLOR_04="ab5236"
-export BASE16_COLOR_05="5f574f"
-export BASE16_COLOR_06="c2c3c7"
-export BASE16_COLOR_07="fff1e8"
-export BASE16_COLOR_08="ff004d"
-export BASE16_COLOR_09="ffa300"
-export BASE16_COLOR_0A="fff024"
-export BASE16_COLOR_0B="00e756"
-export BASE16_COLOR_0C="29adff"
-export BASE16_COLOR_0D="83769c"
-export BASE16_COLOR_0E="ff77a8"
-export BASE16_COLOR_0F="ffccaa"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "000000"
+let g:base16_color_01 = "1d2b53"
+let g:base16_color_02 = "7e2553"
+let g:base16_color_03 = "008751"
+let g:base16_color_04 = "ab5236"
+let g:base16_color_05 = "5f574f"
+let g:base16_color_06 = "c2c3c7"
+let g:base16_color_07 = "fff1e8"
+let g:base16_color_08 = "ff004d"
+let g:base16_color_09 = "ffa300"
+let g:base16_color_0A = "fff024"
+let g:base16_color_0B = "00e756"
+let g:base16_color_0C = "29adff"
+let g:base16_color_0D = "83769c"
+let g:base16_color_0E = "ff77a8"
+let g:base16_color_0F = "ffccaa"
+EOF
 
 color00="00/00/00" # Base 00 - Black
 color01="ff/00/4d" # Base 08 - Red

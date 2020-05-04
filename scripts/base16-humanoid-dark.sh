@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Humanoid dark scheme by Thomas (tasmo) Friese
 
-export BASE16_COLOR_00="232629"
-export BASE16_COLOR_01="333b3d"
-export BASE16_COLOR_02="484e54"
-export BASE16_COLOR_03="60615d"
-export BASE16_COLOR_04="c0c0bd"
-export BASE16_COLOR_05="f8f8f2"
-export BASE16_COLOR_06="fcfcf6"
-export BASE16_COLOR_07="fcfcfc"
-export BASE16_COLOR_08="f11235"
-export BASE16_COLOR_09="ff9505"
-export BASE16_COLOR_0A="ffb627"
-export BASE16_COLOR_0B="02d849"
-export BASE16_COLOR_0C="0dd9d6"
-export BASE16_COLOR_0D="00a6fb"
-export BASE16_COLOR_0E="f15ee3"
-export BASE16_COLOR_0F="b27701"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "232629"
+let g:base16_color_01 = "333b3d"
+let g:base16_color_02 = "484e54"
+let g:base16_color_03 = "60615d"
+let g:base16_color_04 = "c0c0bd"
+let g:base16_color_05 = "f8f8f2"
+let g:base16_color_06 = "fcfcf6"
+let g:base16_color_07 = "fcfcfc"
+let g:base16_color_08 = "f11235"
+let g:base16_color_09 = "ff9505"
+let g:base16_color_0A = "ffb627"
+let g:base16_color_0B = "02d849"
+let g:base16_color_0C = "0dd9d6"
+let g:base16_color_0D = "00a6fb"
+let g:base16_color_0E = "f15ee3"
+let g:base16_color_0F = "b27701"
+EOF
 
 color00="23/26/29" # Base 00 - Black
 color01="f1/12/35" # Base 08 - Red

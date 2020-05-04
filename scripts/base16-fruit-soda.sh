@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Fruit Soda scheme by jozip
 
-export BASE16_COLOR_00="f1ecf1"
-export BASE16_COLOR_01="e0dee0"
-export BASE16_COLOR_02="d8d5d5"
-export BASE16_COLOR_03="b5b4b6"
-export BASE16_COLOR_04="979598"
-export BASE16_COLOR_05="515151"
-export BASE16_COLOR_06="474545"
-export BASE16_COLOR_07="2d2c2c"
-export BASE16_COLOR_08="fe3e31"
-export BASE16_COLOR_09="fe6d08"
-export BASE16_COLOR_0A="f7e203"
-export BASE16_COLOR_0B="47f74c"
-export BASE16_COLOR_0C="0f9cfd"
-export BASE16_COLOR_0D="2931df"
-export BASE16_COLOR_0E="611fce"
-export BASE16_COLOR_0F="b16f40"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "f1ecf1"
+let g:base16_color_01 = "e0dee0"
+let g:base16_color_02 = "d8d5d5"
+let g:base16_color_03 = "b5b4b6"
+let g:base16_color_04 = "979598"
+let g:base16_color_05 = "515151"
+let g:base16_color_06 = "474545"
+let g:base16_color_07 = "2d2c2c"
+let g:base16_color_08 = "fe3e31"
+let g:base16_color_09 = "fe6d08"
+let g:base16_color_0A = "f7e203"
+let g:base16_color_0B = "47f74c"
+let g:base16_color_0C = "0f9cfd"
+let g:base16_color_0D = "2931df"
+let g:base16_color_0E = "611fce"
+let g:base16_color_0F = "b16f40"
+EOF
 
 color00="f1/ec/f1" # Base 00 - Black
 color01="fe/3e/31" # Base 08 - Red

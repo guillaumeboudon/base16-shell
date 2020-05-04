@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Porple scheme by Niek den Breeje (https://github.com/AuditeMarlow)
 
-export BASE16_COLOR_00="292c36"
-export BASE16_COLOR_01="333344"
-export BASE16_COLOR_02="474160"
-export BASE16_COLOR_03="65568a"
-export BASE16_COLOR_04="b8b8b8"
-export BASE16_COLOR_05="d8d8d8"
-export BASE16_COLOR_06="e8e8e8"
-export BASE16_COLOR_07="f8f8f8"
-export BASE16_COLOR_08="f84547"
-export BASE16_COLOR_09="d28e5d"
-export BASE16_COLOR_0A="efa16b"
-export BASE16_COLOR_0B="95c76f"
-export BASE16_COLOR_0C="64878f"
-export BASE16_COLOR_0D="8485ce"
-export BASE16_COLOR_0E="b74989"
-export BASE16_COLOR_0F="986841"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "292c36"
+let g:base16_color_01 = "333344"
+let g:base16_color_02 = "474160"
+let g:base16_color_03 = "65568a"
+let g:base16_color_04 = "b8b8b8"
+let g:base16_color_05 = "d8d8d8"
+let g:base16_color_06 = "e8e8e8"
+let g:base16_color_07 = "f8f8f8"
+let g:base16_color_08 = "f84547"
+let g:base16_color_09 = "d28e5d"
+let g:base16_color_0A = "efa16b"
+let g:base16_color_0B = "95c76f"
+let g:base16_color_0C = "64878f"
+let g:base16_color_0D = "8485ce"
+let g:base16_color_0E = "b74989"
+let g:base16_color_0F = "986841"
+EOF
 
 color00="29/2c/36" # Base 00 - Black
 color01="f8/45/47" # Base 08 - Red

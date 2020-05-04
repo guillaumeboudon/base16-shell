@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Twilight scheme by David Hart (https://github.com/hartbit)
 
-export BASE16_COLOR_00="1e1e1e"
-export BASE16_COLOR_01="323537"
-export BASE16_COLOR_02="464b50"
-export BASE16_COLOR_03="5f5a60"
-export BASE16_COLOR_04="838184"
-export BASE16_COLOR_05="a7a7a7"
-export BASE16_COLOR_06="c3c3c3"
-export BASE16_COLOR_07="ffffff"
-export BASE16_COLOR_08="cf6a4c"
-export BASE16_COLOR_09="cda869"
-export BASE16_COLOR_0A="f9ee98"
-export BASE16_COLOR_0B="8f9d6a"
-export BASE16_COLOR_0C="afc4db"
-export BASE16_COLOR_0D="7587a6"
-export BASE16_COLOR_0E="9b859d"
-export BASE16_COLOR_0F="9b703f"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1e1e1e"
+let g:base16_color_01 = "323537"
+let g:base16_color_02 = "464b50"
+let g:base16_color_03 = "5f5a60"
+let g:base16_color_04 = "838184"
+let g:base16_color_05 = "a7a7a7"
+let g:base16_color_06 = "c3c3c3"
+let g:base16_color_07 = "ffffff"
+let g:base16_color_08 = "cf6a4c"
+let g:base16_color_09 = "cda869"
+let g:base16_color_0A = "f9ee98"
+let g:base16_color_0B = "8f9d6a"
+let g:base16_color_0C = "afc4db"
+let g:base16_color_0D = "7587a6"
+let g:base16_color_0E = "9b859d"
+let g:base16_color_0F = "9b703f"
+EOF
 
 color00="1e/1e/1e" # Base 00 - Black
 color01="cf/6a/4c" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # vulcan scheme by Andrey Varfolomeev
 
-export BASE16_COLOR_00="041523"
-export BASE16_COLOR_01="122339"
-export BASE16_COLOR_02="003552"
-export BASE16_COLOR_03="7a5759"
-export BASE16_COLOR_04="6b6977"
-export BASE16_COLOR_05="5b778c"
-export BASE16_COLOR_06="333238"
-export BASE16_COLOR_07="214d68"
-export BASE16_COLOR_08="818591"
-export BASE16_COLOR_09="9198a3"
-export BASE16_COLOR_0A="adb4b9"
-export BASE16_COLOR_0B="977d7c"
-export BASE16_COLOR_0C="977d7c"
-export BASE16_COLOR_0D="977d7c"
-export BASE16_COLOR_0E="9198a3"
-export BASE16_COLOR_0F="977d7c"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "041523"
+let g:base16_color_01 = "122339"
+let g:base16_color_02 = "003552"
+let g:base16_color_03 = "7a5759"
+let g:base16_color_04 = "6b6977"
+let g:base16_color_05 = "5b778c"
+let g:base16_color_06 = "333238"
+let g:base16_color_07 = "214d68"
+let g:base16_color_08 = "818591"
+let g:base16_color_09 = "9198a3"
+let g:base16_color_0A = "adb4b9"
+let g:base16_color_0B = "977d7c"
+let g:base16_color_0C = "977d7c"
+let g:base16_color_0D = "977d7c"
+let g:base16_color_0E = "9198a3"
+let g:base16_color_0F = "977d7c"
+EOF
 
 color00="04/15/23" # Base 00 - Black
 color01="81/85/91" # Base 08 - Red

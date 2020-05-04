@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # OceanicNext scheme by https://github.com/voronianski/oceanic-next-color-scheme
 
-export BASE16_COLOR_00="1B2B34"
-export BASE16_COLOR_01="343D46"
-export BASE16_COLOR_02="4F5B66"
-export BASE16_COLOR_03="65737E"
-export BASE16_COLOR_04="A7ADBA"
-export BASE16_COLOR_05="C0C5CE"
-export BASE16_COLOR_06="CDD3DE"
-export BASE16_COLOR_07="D8DEE9"
-export BASE16_COLOR_08="EC5f67"
-export BASE16_COLOR_09="F99157"
-export BASE16_COLOR_0A="FAC863"
-export BASE16_COLOR_0B="99C794"
-export BASE16_COLOR_0C="5FB3B3"
-export BASE16_COLOR_0D="6699CC"
-export BASE16_COLOR_0E="C594C5"
-export BASE16_COLOR_0F="AB7967"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1B2B34"
+let g:base16_color_01 = "343D46"
+let g:base16_color_02 = "4F5B66"
+let g:base16_color_03 = "65737E"
+let g:base16_color_04 = "A7ADBA"
+let g:base16_color_05 = "C0C5CE"
+let g:base16_color_06 = "CDD3DE"
+let g:base16_color_07 = "D8DEE9"
+let g:base16_color_08 = "EC5f67"
+let g:base16_color_09 = "F99157"
+let g:base16_color_0A = "FAC863"
+let g:base16_color_0B = "99C794"
+let g:base16_color_0C = "5FB3B3"
+let g:base16_color_0D = "6699CC"
+let g:base16_color_0E = "C594C5"
+let g:base16_color_0F = "AB7967"
+EOF
 
 color00="1B/2B/34" # Base 00 - Black
 color01="EC/5f/67" # Base 08 - Red

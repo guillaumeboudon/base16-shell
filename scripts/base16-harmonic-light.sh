@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Harmonic16 Light scheme by Jannik Siebert (https://github.com/janniks)
 
-export BASE16_COLOR_00="f7f9fb"
-export BASE16_COLOR_01="e5ebf1"
-export BASE16_COLOR_02="cbd6e2"
-export BASE16_COLOR_03="aabcce"
-export BASE16_COLOR_04="627e99"
-export BASE16_COLOR_05="405c79"
-export BASE16_COLOR_06="223b54"
-export BASE16_COLOR_07="0b1c2c"
-export BASE16_COLOR_08="bf8b56"
-export BASE16_COLOR_09="bfbf56"
-export BASE16_COLOR_0A="8bbf56"
-export BASE16_COLOR_0B="56bf8b"
-export BASE16_COLOR_0C="568bbf"
-export BASE16_COLOR_0D="8b56bf"
-export BASE16_COLOR_0E="bf568b"
-export BASE16_COLOR_0F="bf5656"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "f7f9fb"
+let g:base16_color_01 = "e5ebf1"
+let g:base16_color_02 = "cbd6e2"
+let g:base16_color_03 = "aabcce"
+let g:base16_color_04 = "627e99"
+let g:base16_color_05 = "405c79"
+let g:base16_color_06 = "223b54"
+let g:base16_color_07 = "0b1c2c"
+let g:base16_color_08 = "bf8b56"
+let g:base16_color_09 = "bfbf56"
+let g:base16_color_0A = "8bbf56"
+let g:base16_color_0B = "56bf8b"
+let g:base16_color_0C = "568bbf"
+let g:base16_color_0D = "8b56bf"
+let g:base16_color_0E = "bf568b"
+let g:base16_color_0F = "bf5656"
+EOF
 
 color00="f7/f9/fb" # Base 00 - Black
 color01="bf/8b/56" # Base 08 - Red

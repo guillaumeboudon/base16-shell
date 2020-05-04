@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Equilibrium Gray Light scheme by Carlo Abelli
 
-export BASE16_COLOR_00="f1f1f1"
-export BASE16_COLOR_01="e2e2e2"
-export BASE16_COLOR_02="d4d4d4"
-export BASE16_COLOR_03="777777"
-export BASE16_COLOR_04="5e5e5e"
-export BASE16_COLOR_05="474747"
-export BASE16_COLOR_06="303030"
-export BASE16_COLOR_07="1b1b1b"
-export BASE16_COLOR_08="d02023"
-export BASE16_COLOR_09="bf3e05"
-export BASE16_COLOR_0A="9d6f00"
-export BASE16_COLOR_0B="637200"
-export BASE16_COLOR_0C="007a72"
-export BASE16_COLOR_0D="0073b5"
-export BASE16_COLOR_0E="4e66b6"
-export BASE16_COLOR_0F="c42775"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "f1f1f1"
+let g:base16_color_01 = "e2e2e2"
+let g:base16_color_02 = "d4d4d4"
+let g:base16_color_03 = "777777"
+let g:base16_color_04 = "5e5e5e"
+let g:base16_color_05 = "474747"
+let g:base16_color_06 = "303030"
+let g:base16_color_07 = "1b1b1b"
+let g:base16_color_08 = "d02023"
+let g:base16_color_09 = "bf3e05"
+let g:base16_color_0A = "9d6f00"
+let g:base16_color_0B = "637200"
+let g:base16_color_0C = "007a72"
+let g:base16_color_0D = "0073b5"
+let g:base16_color_0E = "4e66b6"
+let g:base16_color_0F = "c42775"
+EOF
 
 color00="f1/f1/f1" # Base 00 - Black
 color01="d0/20/23" # Base 08 - Red

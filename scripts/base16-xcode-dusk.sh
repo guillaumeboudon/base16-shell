@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # XCode Dusk scheme by Elsa Gonsiorowski (https://github.com/gonsie)
 
-export BASE16_COLOR_00="282B35"
-export BASE16_COLOR_01="3D4048"
-export BASE16_COLOR_02="53555D"
-export BASE16_COLOR_03="686A71"
-export BASE16_COLOR_04="7E8086"
-export BASE16_COLOR_05="939599"
-export BASE16_COLOR_06="A9AAAE"
-export BASE16_COLOR_07="BEBFC2"
-export BASE16_COLOR_08="B21889"
-export BASE16_COLOR_09="786DC5"
-export BASE16_COLOR_0A="438288"
-export BASE16_COLOR_0B="DF0002"
-export BASE16_COLOR_0C="00A0BE"
-export BASE16_COLOR_0D="790EAD"
-export BASE16_COLOR_0E="B21889"
-export BASE16_COLOR_0F="C77C48"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "282B35"
+let g:base16_color_01 = "3D4048"
+let g:base16_color_02 = "53555D"
+let g:base16_color_03 = "686A71"
+let g:base16_color_04 = "7E8086"
+let g:base16_color_05 = "939599"
+let g:base16_color_06 = "A9AAAE"
+let g:base16_color_07 = "BEBFC2"
+let g:base16_color_08 = "B21889"
+let g:base16_color_09 = "786DC5"
+let g:base16_color_0A = "438288"
+let g:base16_color_0B = "DF0002"
+let g:base16_color_0C = "00A0BE"
+let g:base16_color_0D = "790EAD"
+let g:base16_color_0E = "B21889"
+let g:base16_color_0F = "C77C48"
+EOF
 
 color00="28/2B/35" # Base 00 - Black
 color01="B2/18/89" # Base 08 - Red

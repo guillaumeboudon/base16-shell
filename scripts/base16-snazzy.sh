@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Snazzy scheme by Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
 
-export BASE16_COLOR_00="282a36"
-export BASE16_COLOR_01="34353e"
-export BASE16_COLOR_02="43454f"
-export BASE16_COLOR_03="78787e"
-export BASE16_COLOR_04="a5a5a9"
-export BASE16_COLOR_05="e2e4e5"
-export BASE16_COLOR_06="eff0eb"
-export BASE16_COLOR_07="f1f1f0"
-export BASE16_COLOR_08="ff5c57"
-export BASE16_COLOR_09="ff9f43"
-export BASE16_COLOR_0A="f3f99d"
-export BASE16_COLOR_0B="5af78e"
-export BASE16_COLOR_0C="9aedfe"
-export BASE16_COLOR_0D="57c7ff"
-export BASE16_COLOR_0E="ff6ac1"
-export BASE16_COLOR_0F="b2643c"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "282a36"
+let g:base16_color_01 = "34353e"
+let g:base16_color_02 = "43454f"
+let g:base16_color_03 = "78787e"
+let g:base16_color_04 = "a5a5a9"
+let g:base16_color_05 = "e2e4e5"
+let g:base16_color_06 = "eff0eb"
+let g:base16_color_07 = "f1f1f0"
+let g:base16_color_08 = "ff5c57"
+let g:base16_color_09 = "ff9f43"
+let g:base16_color_0A = "f3f99d"
+let g:base16_color_0B = "5af78e"
+let g:base16_color_0C = "9aedfe"
+let g:base16_color_0D = "57c7ff"
+let g:base16_color_0E = "ff6ac1"
+let g:base16_color_0F = "b2643c"
+EOF
 
 color00="28/2a/36" # Base 00 - Black
 color01="ff/5c/57" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Framer scheme by Framer (Maintained by Jesse Hoyos)
 
-export BASE16_COLOR_00="181818"
-export BASE16_COLOR_01="151515"
-export BASE16_COLOR_02="464646"
-export BASE16_COLOR_03="747474"
-export BASE16_COLOR_04="B9B9B9"
-export BASE16_COLOR_05="D0D0D0"
-export BASE16_COLOR_06="E8E8E8"
-export BASE16_COLOR_07="EEEEEE"
-export BASE16_COLOR_08="FD886B"
-export BASE16_COLOR_09="FC4769"
-export BASE16_COLOR_0A="FECB6E"
-export BASE16_COLOR_0B="32CCDC"
-export BASE16_COLOR_0C="ACDDFD"
-export BASE16_COLOR_0D="20BCFC"
-export BASE16_COLOR_0E="BA8CFC"
-export BASE16_COLOR_0F="B15F4A"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "181818"
+let g:base16_color_01 = "151515"
+let g:base16_color_02 = "464646"
+let g:base16_color_03 = "747474"
+let g:base16_color_04 = "B9B9B9"
+let g:base16_color_05 = "D0D0D0"
+let g:base16_color_06 = "E8E8E8"
+let g:base16_color_07 = "EEEEEE"
+let g:base16_color_08 = "FD886B"
+let g:base16_color_09 = "FC4769"
+let g:base16_color_0A = "FECB6E"
+let g:base16_color_0B = "32CCDC"
+let g:base16_color_0C = "ACDDFD"
+let g:base16_color_0D = "20BCFC"
+let g:base16_color_0E = "BA8CFC"
+let g:base16_color_0F = "B15F4A"
+EOF
 
 color00="18/18/18" # Base 00 - Black
 color01="FD/88/6B" # Base 08 - Red

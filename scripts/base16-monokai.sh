@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Monokai scheme by Wimer Hazenberg (http://www.monokai.nl)
 
-export BASE16_COLOR_00="272822"
-export BASE16_COLOR_01="383830"
-export BASE16_COLOR_02="49483e"
-export BASE16_COLOR_03="75715e"
-export BASE16_COLOR_04="a59f85"
-export BASE16_COLOR_05="f8f8f2"
-export BASE16_COLOR_06="f5f4f1"
-export BASE16_COLOR_07="f9f8f5"
-export BASE16_COLOR_08="f92672"
-export BASE16_COLOR_09="fd971f"
-export BASE16_COLOR_0A="f4bf75"
-export BASE16_COLOR_0B="a6e22e"
-export BASE16_COLOR_0C="a1efe4"
-export BASE16_COLOR_0D="66d9ef"
-export BASE16_COLOR_0E="ae81ff"
-export BASE16_COLOR_0F="cc6633"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "272822"
+let g:base16_color_01 = "383830"
+let g:base16_color_02 = "49483e"
+let g:base16_color_03 = "75715e"
+let g:base16_color_04 = "a59f85"
+let g:base16_color_05 = "f8f8f2"
+let g:base16_color_06 = "f5f4f1"
+let g:base16_color_07 = "f9f8f5"
+let g:base16_color_08 = "f92672"
+let g:base16_color_09 = "fd971f"
+let g:base16_color_0A = "f4bf75"
+let g:base16_color_0B = "a6e22e"
+let g:base16_color_0C = "a1efe4"
+let g:base16_color_0D = "66d9ef"
+let g:base16_color_0E = "ae81ff"
+let g:base16_color_0F = "cc6633"
+EOF
 
 color00="27/28/22" # Base 00 - Black
 color01="f9/26/72" # Base 08 - Red

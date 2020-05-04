@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # PaperColor Dark scheme by Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
 
-export BASE16_COLOR_00="1c1c1c"
-export BASE16_COLOR_01="af005f"
-export BASE16_COLOR_02="5faf00"
-export BASE16_COLOR_03="d7af5f"
-export BASE16_COLOR_04="5fafd7"
-export BASE16_COLOR_05="808080"
-export BASE16_COLOR_06="d7875f"
-export BASE16_COLOR_07="d0d0d0"
-export BASE16_COLOR_08="585858"
-export BASE16_COLOR_09="5faf5f"
-export BASE16_COLOR_0A="afd700"
-export BASE16_COLOR_0B="af87d7"
-export BASE16_COLOR_0C="ffaf00"
-export BASE16_COLOR_0D="ff5faf"
-export BASE16_COLOR_0E="00afaf"
-export BASE16_COLOR_0F="5f8787"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1c1c1c"
+let g:base16_color_01 = "af005f"
+let g:base16_color_02 = "5faf00"
+let g:base16_color_03 = "d7af5f"
+let g:base16_color_04 = "5fafd7"
+let g:base16_color_05 = "808080"
+let g:base16_color_06 = "d7875f"
+let g:base16_color_07 = "d0d0d0"
+let g:base16_color_08 = "585858"
+let g:base16_color_09 = "5faf5f"
+let g:base16_color_0A = "afd700"
+let g:base16_color_0B = "af87d7"
+let g:base16_color_0C = "ffaf00"
+let g:base16_color_0D = "ff5faf"
+let g:base16_color_0E = "00afaf"
+let g:base16_color_0F = "5f8787"
+EOF
 
 color00="1c/1c/1c" # Base 00 - Black
 color01="58/58/58" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Material Lighter scheme by Nate Peterson
 
-export BASE16_COLOR_00="FAFAFA"
-export BASE16_COLOR_01="E7EAEC"
-export BASE16_COLOR_02="CCEAE7"
-export BASE16_COLOR_03="CCD7DA"
-export BASE16_COLOR_04="8796B0"
-export BASE16_COLOR_05="80CBC4"
-export BASE16_COLOR_06="80CBC4"
-export BASE16_COLOR_07="FFFFFF"
-export BASE16_COLOR_08="FF5370"
-export BASE16_COLOR_09="F76D47"
-export BASE16_COLOR_0A="FFB62C"
-export BASE16_COLOR_0B="91B859"
-export BASE16_COLOR_0C="39ADB5"
-export BASE16_COLOR_0D="6182B8"
-export BASE16_COLOR_0E="7C4DFF"
-export BASE16_COLOR_0F="E53935"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "FAFAFA"
+let g:base16_color_01 = "E7EAEC"
+let g:base16_color_02 = "CCEAE7"
+let g:base16_color_03 = "CCD7DA"
+let g:base16_color_04 = "8796B0"
+let g:base16_color_05 = "80CBC4"
+let g:base16_color_06 = "80CBC4"
+let g:base16_color_07 = "FFFFFF"
+let g:base16_color_08 = "FF5370"
+let g:base16_color_09 = "F76D47"
+let g:base16_color_0A = "FFB62C"
+let g:base16_color_0B = "91B859"
+let g:base16_color_0C = "39ADB5"
+let g:base16_color_0D = "6182B8"
+let g:base16_color_0E = "7C4DFF"
+let g:base16_color_0F = "E53935"
+EOF
 
 color00="FA/FA/FA" # Base 00 - Black
 color01="FF/53/70" # Base 08 - Red

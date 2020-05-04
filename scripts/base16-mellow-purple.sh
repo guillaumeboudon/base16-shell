@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Mellow Purple scheme by gidsi
 
-export BASE16_COLOR_00="1e0528"
-export BASE16_COLOR_01="1A092D"
-export BASE16_COLOR_02="331354"
-export BASE16_COLOR_03="320f55"
-export BASE16_COLOR_04="873582"
-export BASE16_COLOR_05="ffeeff"
-export BASE16_COLOR_06="ffeeff"
-export BASE16_COLOR_07="f8c0ff"
-export BASE16_COLOR_08="00d9e9"
-export BASE16_COLOR_09="aa00a3"
-export BASE16_COLOR_0A="955ae7"
-export BASE16_COLOR_0B="05cb0d"
-export BASE16_COLOR_0C="b900b1"
-export BASE16_COLOR_0D="550068"
-export BASE16_COLOR_0E="8991bb"
-export BASE16_COLOR_0F="4d6fff"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1e0528"
+let g:base16_color_01 = "1A092D"
+let g:base16_color_02 = "331354"
+let g:base16_color_03 = "320f55"
+let g:base16_color_04 = "873582"
+let g:base16_color_05 = "ffeeff"
+let g:base16_color_06 = "ffeeff"
+let g:base16_color_07 = "f8c0ff"
+let g:base16_color_08 = "00d9e9"
+let g:base16_color_09 = "aa00a3"
+let g:base16_color_0A = "955ae7"
+let g:base16_color_0B = "05cb0d"
+let g:base16_color_0C = "b900b1"
+let g:base16_color_0D = "550068"
+let g:base16_color_0E = "8991bb"
+let g:base16_color_0F = "4d6fff"
+EOF
 
 color00="1e/05/28" # Base 00 - Black
 color01="00/d9/e9" # Base 08 - Red

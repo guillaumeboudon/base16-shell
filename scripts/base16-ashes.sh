@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Ashes scheme by Jannik Siebert (https://github.com/janniks)
 
-export BASE16_COLOR_00="1C2023"
-export BASE16_COLOR_01="393F45"
-export BASE16_COLOR_02="565E65"
-export BASE16_COLOR_03="747C84"
-export BASE16_COLOR_04="ADB3BA"
-export BASE16_COLOR_05="C7CCD1"
-export BASE16_COLOR_06="DFE2E5"
-export BASE16_COLOR_07="F3F4F5"
-export BASE16_COLOR_08="C7AE95"
-export BASE16_COLOR_09="C7C795"
-export BASE16_COLOR_0A="AEC795"
-export BASE16_COLOR_0B="95C7AE"
-export BASE16_COLOR_0C="95AEC7"
-export BASE16_COLOR_0D="AE95C7"
-export BASE16_COLOR_0E="C795AE"
-export BASE16_COLOR_0F="C79595"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1C2023"
+let g:base16_color_01 = "393F45"
+let g:base16_color_02 = "565E65"
+let g:base16_color_03 = "747C84"
+let g:base16_color_04 = "ADB3BA"
+let g:base16_color_05 = "C7CCD1"
+let g:base16_color_06 = "DFE2E5"
+let g:base16_color_07 = "F3F4F5"
+let g:base16_color_08 = "C7AE95"
+let g:base16_color_09 = "C7C795"
+let g:base16_color_0A = "AEC795"
+let g:base16_color_0B = "95C7AE"
+let g:base16_color_0C = "95AEC7"
+let g:base16_color_0D = "AE95C7"
+let g:base16_color_0E = "C795AE"
+let g:base16_color_0F = "C79595"
+EOF
 
 color00="1C/20/23" # Base 00 - Black
 color01="C7/AE/95" # Base 08 - Red

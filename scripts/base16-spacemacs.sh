@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Spacemacs scheme by Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
 
-export BASE16_COLOR_00="1f2022"
-export BASE16_COLOR_01="282828"
-export BASE16_COLOR_02="444155"
-export BASE16_COLOR_03="585858"
-export BASE16_COLOR_04="b8b8b8"
-export BASE16_COLOR_05="a3a3a3"
-export BASE16_COLOR_06="e8e8e8"
-export BASE16_COLOR_07="f8f8f8"
-export BASE16_COLOR_08="f2241f"
-export BASE16_COLOR_09="ffa500"
-export BASE16_COLOR_0A="b1951d"
-export BASE16_COLOR_0B="67b11d"
-export BASE16_COLOR_0C="2d9574"
-export BASE16_COLOR_0D="4f97d7"
-export BASE16_COLOR_0E="a31db1"
-export BASE16_COLOR_0F="b03060"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1f2022"
+let g:base16_color_01 = "282828"
+let g:base16_color_02 = "444155"
+let g:base16_color_03 = "585858"
+let g:base16_color_04 = "b8b8b8"
+let g:base16_color_05 = "a3a3a3"
+let g:base16_color_06 = "e8e8e8"
+let g:base16_color_07 = "f8f8f8"
+let g:base16_color_08 = "f2241f"
+let g:base16_color_09 = "ffa500"
+let g:base16_color_0A = "b1951d"
+let g:base16_color_0B = "67b11d"
+let g:base16_color_0C = "2d9574"
+let g:base16_color_0D = "4f97d7"
+let g:base16_color_0E = "a31db1"
+let g:base16_color_0F = "b03060"
+EOF
 
 color00="1f/20/22" # Base 00 - Black
 color01="f2/24/1f" # Base 08 - Red

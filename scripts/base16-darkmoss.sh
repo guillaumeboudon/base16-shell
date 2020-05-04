@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # darkmoss scheme by Gabriel Avanzi (https://github.com/avanzzzi)
 
-export BASE16_COLOR_00="171e1f"
-export BASE16_COLOR_01="252c2d"
-export BASE16_COLOR_02="373c3d"
-export BASE16_COLOR_03="555e5f"
-export BASE16_COLOR_04="818f80"
-export BASE16_COLOR_05="c7c7a5"
-export BASE16_COLOR_06="e3e3c8"
-export BASE16_COLOR_07="e1eaef"
-export BASE16_COLOR_08="ff4658"
-export BASE16_COLOR_09="e6db74"
-export BASE16_COLOR_0A="fdb11f"
-export BASE16_COLOR_0B="499180"
-export BASE16_COLOR_0C="66d9ef"
-export BASE16_COLOR_0D="498091"
-export BASE16_COLOR_0E="9bc0c8"
-export BASE16_COLOR_0F="d27b53"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "171e1f"
+let g:base16_color_01 = "252c2d"
+let g:base16_color_02 = "373c3d"
+let g:base16_color_03 = "555e5f"
+let g:base16_color_04 = "818f80"
+let g:base16_color_05 = "c7c7a5"
+let g:base16_color_06 = "e3e3c8"
+let g:base16_color_07 = "e1eaef"
+let g:base16_color_08 = "ff4658"
+let g:base16_color_09 = "e6db74"
+let g:base16_color_0A = "fdb11f"
+let g:base16_color_0B = "499180"
+let g:base16_color_0C = "66d9ef"
+let g:base16_color_0D = "498091"
+let g:base16_color_0E = "9bc0c8"
+let g:base16_color_0F = "d27b53"
+EOF
 
 color00="17/1e/1f" # Base 00 - Black
 color01="ff/46/58" # Base 08 - Red

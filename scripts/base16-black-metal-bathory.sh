@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Black Metal (Bathory) scheme by metalelf0 (https://github.com/metalelf0)
 
-export BASE16_COLOR_00="000000"
-export BASE16_COLOR_01="121212"
-export BASE16_COLOR_02="222222"
-export BASE16_COLOR_03="333333"
-export BASE16_COLOR_04="999999"
-export BASE16_COLOR_05="c1c1c1"
-export BASE16_COLOR_06="999999"
-export BASE16_COLOR_07="c1c1c1"
-export BASE16_COLOR_08="5f8787"
-export BASE16_COLOR_09="aaaaaa"
-export BASE16_COLOR_0A="e78a53"
-export BASE16_COLOR_0B="fbcb97"
-export BASE16_COLOR_0C="aaaaaa"
-export BASE16_COLOR_0D="888888"
-export BASE16_COLOR_0E="999999"
-export BASE16_COLOR_0F="444444"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "000000"
+let g:base16_color_01 = "121212"
+let g:base16_color_02 = "222222"
+let g:base16_color_03 = "333333"
+let g:base16_color_04 = "999999"
+let g:base16_color_05 = "c1c1c1"
+let g:base16_color_06 = "999999"
+let g:base16_color_07 = "c1c1c1"
+let g:base16_color_08 = "5f8787"
+let g:base16_color_09 = "aaaaaa"
+let g:base16_color_0A = "e78a53"
+let g:base16_color_0B = "fbcb97"
+let g:base16_color_0C = "aaaaaa"
+let g:base16_color_0D = "888888"
+let g:base16_color_0E = "999999"
+let g:base16_color_0F = "444444"
+EOF
 
 color00="00/00/00" # Base 00 - Black
 color01="5f/87/87" # Base 08 - Red

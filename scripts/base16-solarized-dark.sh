@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Solarized Dark scheme by Ethan Schoonover (modified by aramisgithub)
 
-export BASE16_COLOR_00="002b36"
-export BASE16_COLOR_01="073642"
-export BASE16_COLOR_02="586e75"
-export BASE16_COLOR_03="657b83"
-export BASE16_COLOR_04="839496"
-export BASE16_COLOR_05="93a1a1"
-export BASE16_COLOR_06="eee8d5"
-export BASE16_COLOR_07="fdf6e3"
-export BASE16_COLOR_08="dc322f"
-export BASE16_COLOR_09="cb4b16"
-export BASE16_COLOR_0A="b58900"
-export BASE16_COLOR_0B="859900"
-export BASE16_COLOR_0C="2aa198"
-export BASE16_COLOR_0D="268bd2"
-export BASE16_COLOR_0E="6c71c4"
-export BASE16_COLOR_0F="d33682"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "002b36"
+let g:base16_color_01 = "073642"
+let g:base16_color_02 = "586e75"
+let g:base16_color_03 = "657b83"
+let g:base16_color_04 = "839496"
+let g:base16_color_05 = "93a1a1"
+let g:base16_color_06 = "eee8d5"
+let g:base16_color_07 = "fdf6e3"
+let g:base16_color_08 = "dc322f"
+let g:base16_color_09 = "cb4b16"
+let g:base16_color_0A = "b58900"
+let g:base16_color_0B = "859900"
+let g:base16_color_0C = "2aa198"
+let g:base16_color_0D = "268bd2"
+let g:base16_color_0E = "6c71c4"
+let g:base16_color_0F = "d33682"
+EOF
 
 color00="00/2b/36" # Base 00 - Black
 color01="dc/32/2f" # Base 08 - Red

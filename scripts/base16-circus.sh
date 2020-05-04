@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Circus scheme by Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
 
-export BASE16_COLOR_00="191919"
-export BASE16_COLOR_01="202020"
-export BASE16_COLOR_02="303030"
-export BASE16_COLOR_03="5f5a60"
-export BASE16_COLOR_04="505050"
-export BASE16_COLOR_05="a7a7a7"
-export BASE16_COLOR_06="808080"
-export BASE16_COLOR_07="ffffff"
-export BASE16_COLOR_08="dc657d"
-export BASE16_COLOR_09="4bb1a7"
-export BASE16_COLOR_0A="c3ba63"
-export BASE16_COLOR_0B="84b97c"
-export BASE16_COLOR_0C="4bb1a7"
-export BASE16_COLOR_0D="639ee4"
-export BASE16_COLOR_0E="b888e2"
-export BASE16_COLOR_0F="b888e2"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "191919"
+let g:base16_color_01 = "202020"
+let g:base16_color_02 = "303030"
+let g:base16_color_03 = "5f5a60"
+let g:base16_color_04 = "505050"
+let g:base16_color_05 = "a7a7a7"
+let g:base16_color_06 = "808080"
+let g:base16_color_07 = "ffffff"
+let g:base16_color_08 = "dc657d"
+let g:base16_color_09 = "4bb1a7"
+let g:base16_color_0A = "c3ba63"
+let g:base16_color_0B = "84b97c"
+let g:base16_color_0C = "4bb1a7"
+let g:base16_color_0D = "639ee4"
+let g:base16_color_0E = "b888e2"
+let g:base16_color_0F = "b888e2"
+EOF
 
 color00="19/19/19" # Base 00 - Black
 color01="dc/65/7d" # Base 08 - Red

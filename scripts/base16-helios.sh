@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Helios scheme by Alex Meyer (https://github.com/reyemxela)
 
-export BASE16_COLOR_00="1d2021"
-export BASE16_COLOR_01="383c3e"
-export BASE16_COLOR_02="53585b"
-export BASE16_COLOR_03="6f7579"
-export BASE16_COLOR_04="cdcdcd"
-export BASE16_COLOR_05="d5d5d5"
-export BASE16_COLOR_06="dddddd"
-export BASE16_COLOR_07="e5e5e5"
-export BASE16_COLOR_08="d72638"
-export BASE16_COLOR_09="eb8413"
-export BASE16_COLOR_0A="f19d1a"
-export BASE16_COLOR_0B="88b92d"
-export BASE16_COLOR_0C="1ba595"
-export BASE16_COLOR_0D="1e8bac"
-export BASE16_COLOR_0E="be4264"
-export BASE16_COLOR_0F="c85e0d"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1d2021"
+let g:base16_color_01 = "383c3e"
+let g:base16_color_02 = "53585b"
+let g:base16_color_03 = "6f7579"
+let g:base16_color_04 = "cdcdcd"
+let g:base16_color_05 = "d5d5d5"
+let g:base16_color_06 = "dddddd"
+let g:base16_color_07 = "e5e5e5"
+let g:base16_color_08 = "d72638"
+let g:base16_color_09 = "eb8413"
+let g:base16_color_0A = "f19d1a"
+let g:base16_color_0B = "88b92d"
+let g:base16_color_0C = "1ba595"
+let g:base16_color_0D = "1e8bac"
+let g:base16_color_0E = "be4264"
+let g:base16_color_0F = "c85e0d"
+EOF
 
 color00="1d/20/21" # Base 00 - Black
 color01="d7/26/38" # Base 08 - Red

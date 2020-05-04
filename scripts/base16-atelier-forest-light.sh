@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atelier Forest Light scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
-export BASE16_COLOR_00="f1efee"
-export BASE16_COLOR_01="e6e2e0"
-export BASE16_COLOR_02="a8a19f"
-export BASE16_COLOR_03="9c9491"
-export BASE16_COLOR_04="766e6b"
-export BASE16_COLOR_05="68615e"
-export BASE16_COLOR_06="2c2421"
-export BASE16_COLOR_07="1b1918"
-export BASE16_COLOR_08="f22c40"
-export BASE16_COLOR_09="df5320"
-export BASE16_COLOR_0A="c38418"
-export BASE16_COLOR_0B="7b9726"
-export BASE16_COLOR_0C="3d97b8"
-export BASE16_COLOR_0D="407ee7"
-export BASE16_COLOR_0E="6666ea"
-export BASE16_COLOR_0F="c33ff3"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "f1efee"
+let g:base16_color_01 = "e6e2e0"
+let g:base16_color_02 = "a8a19f"
+let g:base16_color_03 = "9c9491"
+let g:base16_color_04 = "766e6b"
+let g:base16_color_05 = "68615e"
+let g:base16_color_06 = "2c2421"
+let g:base16_color_07 = "1b1918"
+let g:base16_color_08 = "f22c40"
+let g:base16_color_09 = "df5320"
+let g:base16_color_0A = "c38418"
+let g:base16_color_0B = "7b9726"
+let g:base16_color_0C = "3d97b8"
+let g:base16_color_0D = "407ee7"
+let g:base16_color_0E = "6666ea"
+let g:base16_color_0F = "c33ff3"
+EOF
 
 color00="f1/ef/ee" # Base 00 - Black
 color01="f2/2c/40" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Zenburn scheme by elnawe
 
-export BASE16_COLOR_00="383838"
-export BASE16_COLOR_01="404040"
-export BASE16_COLOR_02="606060"
-export BASE16_COLOR_03="6f6f6f"
-export BASE16_COLOR_04="808080"
-export BASE16_COLOR_05="dcdccc"
-export BASE16_COLOR_06="c0c0c0"
-export BASE16_COLOR_07="ffffff"
-export BASE16_COLOR_08="dca3a3"
-export BASE16_COLOR_09="dfaf8f"
-export BASE16_COLOR_0A="e0cf9f"
-export BASE16_COLOR_0B="5f7f5f"
-export BASE16_COLOR_0C="93e0e3"
-export BASE16_COLOR_0D="7cb8bb"
-export BASE16_COLOR_0E="dc8cc3"
-export BASE16_COLOR_0F="000000"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "383838"
+let g:base16_color_01 = "404040"
+let g:base16_color_02 = "606060"
+let g:base16_color_03 = "6f6f6f"
+let g:base16_color_04 = "808080"
+let g:base16_color_05 = "dcdccc"
+let g:base16_color_06 = "c0c0c0"
+let g:base16_color_07 = "ffffff"
+let g:base16_color_08 = "dca3a3"
+let g:base16_color_09 = "dfaf8f"
+let g:base16_color_0A = "e0cf9f"
+let g:base16_color_0B = "5f7f5f"
+let g:base16_color_0C = "93e0e3"
+let g:base16_color_0D = "7cb8bb"
+let g:base16_color_0E = "dc8cc3"
+let g:base16_color_0F = "000000"
+EOF
 
 color00="38/38/38" # Base 00 - Black
 color01="dc/a3/a3" # Base 08 - Red

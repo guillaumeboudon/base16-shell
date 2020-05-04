@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Dracula scheme by Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
 
-export BASE16_COLOR_00="282936"
-export BASE16_COLOR_01="3a3c4e"
-export BASE16_COLOR_02="4d4f68"
-export BASE16_COLOR_03="626483"
-export BASE16_COLOR_04="62d6e8"
-export BASE16_COLOR_05="e9e9f4"
-export BASE16_COLOR_06="f1f2f8"
-export BASE16_COLOR_07="f7f7fb"
-export BASE16_COLOR_08="ea51b2"
-export BASE16_COLOR_09="b45bcf"
-export BASE16_COLOR_0A="00f769"
-export BASE16_COLOR_0B="ebff87"
-export BASE16_COLOR_0C="a1efe4"
-export BASE16_COLOR_0D="62d6e8"
-export BASE16_COLOR_0E="b45bcf"
-export BASE16_COLOR_0F="00f769"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "282936"
+let g:base16_color_01 = "3a3c4e"
+let g:base16_color_02 = "4d4f68"
+let g:base16_color_03 = "626483"
+let g:base16_color_04 = "62d6e8"
+let g:base16_color_05 = "e9e9f4"
+let g:base16_color_06 = "f1f2f8"
+let g:base16_color_07 = "f7f7fb"
+let g:base16_color_08 = "ea51b2"
+let g:base16_color_09 = "b45bcf"
+let g:base16_color_0A = "00f769"
+let g:base16_color_0B = "ebff87"
+let g:base16_color_0C = "a1efe4"
+let g:base16_color_0D = "62d6e8"
+let g:base16_color_0E = "b45bcf"
+let g:base16_color_0F = "00f769"
+EOF
 
 color00="28/29/36" # Base 00 - Black
 color01="ea/51/b2" # Base 08 - Red

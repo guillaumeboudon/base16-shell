@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Railscasts scheme by Ryan Bates (http://railscasts.com)
 
-export BASE16_COLOR_00="2b2b2b"
-export BASE16_COLOR_01="272935"
-export BASE16_COLOR_02="3a4055"
-export BASE16_COLOR_03="5a647e"
-export BASE16_COLOR_04="d4cfc9"
-export BASE16_COLOR_05="e6e1dc"
-export BASE16_COLOR_06="f4f1ed"
-export BASE16_COLOR_07="f9f7f3"
-export BASE16_COLOR_08="da4939"
-export BASE16_COLOR_09="cc7833"
-export BASE16_COLOR_0A="ffc66d"
-export BASE16_COLOR_0B="a5c261"
-export BASE16_COLOR_0C="519f50"
-export BASE16_COLOR_0D="6d9cbe"
-export BASE16_COLOR_0E="b6b3eb"
-export BASE16_COLOR_0F="bc9458"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "2b2b2b"
+let g:base16_color_01 = "272935"
+let g:base16_color_02 = "3a4055"
+let g:base16_color_03 = "5a647e"
+let g:base16_color_04 = "d4cfc9"
+let g:base16_color_05 = "e6e1dc"
+let g:base16_color_06 = "f4f1ed"
+let g:base16_color_07 = "f9f7f3"
+let g:base16_color_08 = "da4939"
+let g:base16_color_09 = "cc7833"
+let g:base16_color_0A = "ffc66d"
+let g:base16_color_0B = "a5c261"
+let g:base16_color_0C = "519f50"
+let g:base16_color_0D = "6d9cbe"
+let g:base16_color_0E = "b6b3eb"
+let g:base16_color_0F = "bc9458"
+EOF
 
 color00="2b/2b/2b" # Base 00 - Black
 color01="da/49/39" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # dirtysea scheme by Kahlil (Kal) Hodgson
 
-export BASE16_COLOR_00="e0e0e0"
-export BASE16_COLOR_01="d0d0d0"
-export BASE16_COLOR_02="c0c0c0"
-export BASE16_COLOR_03="707070"
-export BASE16_COLOR_04="202020"
-export BASE16_COLOR_05="000000"
-export BASE16_COLOR_06="f8f8f8"
-export BASE16_COLOR_07="c4d9c4"
-export BASE16_COLOR_08="000090"
-export BASE16_COLOR_09="006565"
-export BASE16_COLOR_0A="006565"
-export BASE16_COLOR_0B="730073"
-export BASE16_COLOR_0C="755B00"
-export BASE16_COLOR_0D="007300"
-export BASE16_COLOR_0E="840000"
-export BASE16_COLOR_0F="755B00"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "e0e0e0"
+let g:base16_color_01 = "d0d0d0"
+let g:base16_color_02 = "c0c0c0"
+let g:base16_color_03 = "707070"
+let g:base16_color_04 = "202020"
+let g:base16_color_05 = "000000"
+let g:base16_color_06 = "f8f8f8"
+let g:base16_color_07 = "c4d9c4"
+let g:base16_color_08 = "000090"
+let g:base16_color_09 = "006565"
+let g:base16_color_0A = "006565"
+let g:base16_color_0B = "730073"
+let g:base16_color_0C = "755B00"
+let g:base16_color_0D = "007300"
+let g:base16_color_0E = "840000"
+let g:base16_color_0F = "755B00"
+EOF
 
 color00="e0/e0/e0" # Base 00 - Black
 color01="00/00/90" # Base 08 - Red

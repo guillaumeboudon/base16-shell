@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Brewer scheme by Timothée Poisot (http://github.com/tpoisot)
 
-export BASE16_COLOR_00="0c0d0e"
-export BASE16_COLOR_01="2e2f30"
-export BASE16_COLOR_02="515253"
-export BASE16_COLOR_03="737475"
-export BASE16_COLOR_04="959697"
-export BASE16_COLOR_05="b7b8b9"
-export BASE16_COLOR_06="dadbdc"
-export BASE16_COLOR_07="fcfdfe"
-export BASE16_COLOR_08="e31a1c"
-export BASE16_COLOR_09="e6550d"
-export BASE16_COLOR_0A="dca060"
-export BASE16_COLOR_0B="31a354"
-export BASE16_COLOR_0C="80b1d3"
-export BASE16_COLOR_0D="3182bd"
-export BASE16_COLOR_0E="756bb1"
-export BASE16_COLOR_0F="b15928"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "0c0d0e"
+let g:base16_color_01 = "2e2f30"
+let g:base16_color_02 = "515253"
+let g:base16_color_03 = "737475"
+let g:base16_color_04 = "959697"
+let g:base16_color_05 = "b7b8b9"
+let g:base16_color_06 = "dadbdc"
+let g:base16_color_07 = "fcfdfe"
+let g:base16_color_08 = "e31a1c"
+let g:base16_color_09 = "e6550d"
+let g:base16_color_0A = "dca060"
+let g:base16_color_0B = "31a354"
+let g:base16_color_0C = "80b1d3"
+let g:base16_color_0D = "3182bd"
+let g:base16_color_0E = "756bb1"
+let g:base16_color_0F = "b15928"
+EOF
 
 color00="0c/0d/0e" # Base 00 - Black
 color01="e3/1a/1c" # Base 08 - Red

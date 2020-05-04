@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Tango scheme by @Schnouki, based on the Tango Desktop Project
 
-export BASE16_COLOR_00="2e3436"
-export BASE16_COLOR_01="8ae234"
-export BASE16_COLOR_02="fce94f"
-export BASE16_COLOR_03="555753"
-export BASE16_COLOR_04="729fcf"
-export BASE16_COLOR_05="d3d7cf"
-export BASE16_COLOR_06="ad7fa8"
-export BASE16_COLOR_07="eeeeec"
-export BASE16_COLOR_08="cc0000"
-export BASE16_COLOR_09="ef2929"
-export BASE16_COLOR_0A="c4a000"
-export BASE16_COLOR_0B="4e9a06"
-export BASE16_COLOR_0C="06989a"
-export BASE16_COLOR_0D="3465a4"
-export BASE16_COLOR_0E="75507b"
-export BASE16_COLOR_0F="34e2e2"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "2e3436"
+let g:base16_color_01 = "8ae234"
+let g:base16_color_02 = "fce94f"
+let g:base16_color_03 = "555753"
+let g:base16_color_04 = "729fcf"
+let g:base16_color_05 = "d3d7cf"
+let g:base16_color_06 = "ad7fa8"
+let g:base16_color_07 = "eeeeec"
+let g:base16_color_08 = "cc0000"
+let g:base16_color_09 = "ef2929"
+let g:base16_color_0A = "c4a000"
+let g:base16_color_0B = "4e9a06"
+let g:base16_color_0C = "06989a"
+let g:base16_color_0D = "3465a4"
+let g:base16_color_0E = "75507b"
+let g:base16_color_0F = "34e2e2"
+EOF
 
 color00="2e/34/36" # Base 00 - Black
 color01="cc/00/00" # Base 08 - Red

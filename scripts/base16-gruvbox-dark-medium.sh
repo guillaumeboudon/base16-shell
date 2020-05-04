@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Gruvbox dark, medium scheme by Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 
-export BASE16_COLOR_00="282828"
-export BASE16_COLOR_01="3c3836"
-export BASE16_COLOR_02="504945"
-export BASE16_COLOR_03="665c54"
-export BASE16_COLOR_04="bdae93"
-export BASE16_COLOR_05="d5c4a1"
-export BASE16_COLOR_06="ebdbb2"
-export BASE16_COLOR_07="fbf1c7"
-export BASE16_COLOR_08="fb4934"
-export BASE16_COLOR_09="fe8019"
-export BASE16_COLOR_0A="fabd2f"
-export BASE16_COLOR_0B="b8bb26"
-export BASE16_COLOR_0C="8ec07c"
-export BASE16_COLOR_0D="83a598"
-export BASE16_COLOR_0E="d3869b"
-export BASE16_COLOR_0F="d65d0e"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "282828"
+let g:base16_color_01 = "3c3836"
+let g:base16_color_02 = "504945"
+let g:base16_color_03 = "665c54"
+let g:base16_color_04 = "bdae93"
+let g:base16_color_05 = "d5c4a1"
+let g:base16_color_06 = "ebdbb2"
+let g:base16_color_07 = "fbf1c7"
+let g:base16_color_08 = "fb4934"
+let g:base16_color_09 = "fe8019"
+let g:base16_color_0A = "fabd2f"
+let g:base16_color_0B = "b8bb26"
+let g:base16_color_0C = "8ec07c"
+let g:base16_color_0D = "83a598"
+let g:base16_color_0E = "d3869b"
+let g:base16_color_0F = "d65d0e"
+EOF
 
 color00="28/28/28" # Base 00 - Black
 color01="fb/49/34" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Shapeshifter scheme by Tyler Benziger (http://tybenz.com)
 
-export BASE16_COLOR_00="f9f9f9"
-export BASE16_COLOR_01="e0e0e0"
-export BASE16_COLOR_02="ababab"
-export BASE16_COLOR_03="555555"
-export BASE16_COLOR_04="343434"
-export BASE16_COLOR_05="102015"
-export BASE16_COLOR_06="040404"
-export BASE16_COLOR_07="000000"
-export BASE16_COLOR_08="e92f2f"
-export BASE16_COLOR_09="e09448"
-export BASE16_COLOR_0A="dddd13"
-export BASE16_COLOR_0B="0ed839"
-export BASE16_COLOR_0C="23edda"
-export BASE16_COLOR_0D="3b48e3"
-export BASE16_COLOR_0E="f996e2"
-export BASE16_COLOR_0F="69542d"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "f9f9f9"
+let g:base16_color_01 = "e0e0e0"
+let g:base16_color_02 = "ababab"
+let g:base16_color_03 = "555555"
+let g:base16_color_04 = "343434"
+let g:base16_color_05 = "102015"
+let g:base16_color_06 = "040404"
+let g:base16_color_07 = "000000"
+let g:base16_color_08 = "e92f2f"
+let g:base16_color_09 = "e09448"
+let g:base16_color_0A = "dddd13"
+let g:base16_color_0B = "0ed839"
+let g:base16_color_0C = "23edda"
+let g:base16_color_0D = "3b48e3"
+let g:base16_color_0E = "f996e2"
+let g:base16_color_0F = "69542d"
+EOF
 
 color00="f9/f9/f9" # Base 00 - Black
 color01="e9/2f/2f" # Base 08 - Red

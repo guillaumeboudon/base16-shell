@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Marrakesh scheme by Alexandre Gavioli (http://github.com/Alexx2/)
 
-export BASE16_COLOR_00="201602"
-export BASE16_COLOR_01="302e00"
-export BASE16_COLOR_02="5f5b17"
-export BASE16_COLOR_03="6c6823"
-export BASE16_COLOR_04="86813b"
-export BASE16_COLOR_05="948e48"
-export BASE16_COLOR_06="ccc37a"
-export BASE16_COLOR_07="faf0a5"
-export BASE16_COLOR_08="c35359"
-export BASE16_COLOR_09="b36144"
-export BASE16_COLOR_0A="a88339"
-export BASE16_COLOR_0B="18974e"
-export BASE16_COLOR_0C="75a738"
-export BASE16_COLOR_0D="477ca1"
-export BASE16_COLOR_0E="8868b3"
-export BASE16_COLOR_0F="b3588e"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "201602"
+let g:base16_color_01 = "302e00"
+let g:base16_color_02 = "5f5b17"
+let g:base16_color_03 = "6c6823"
+let g:base16_color_04 = "86813b"
+let g:base16_color_05 = "948e48"
+let g:base16_color_06 = "ccc37a"
+let g:base16_color_07 = "faf0a5"
+let g:base16_color_08 = "c35359"
+let g:base16_color_09 = "b36144"
+let g:base16_color_0A = "a88339"
+let g:base16_color_0B = "18974e"
+let g:base16_color_0C = "75a738"
+let g:base16_color_0D = "477ca1"
+let g:base16_color_0E = "8868b3"
+let g:base16_color_0F = "b3588e"
+EOF
 
 color00="20/16/02" # Base 00 - Black
 color01="c3/53/59" # Base 08 - Red

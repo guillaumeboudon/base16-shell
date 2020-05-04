@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Brush Trees scheme by Abraham White &lt;abelincoln.white@gmail.com&gt;
 
-export BASE16_COLOR_00="E3EFEF"
-export BASE16_COLOR_01="C9DBDC"
-export BASE16_COLOR_02="B0C5C8"
-export BASE16_COLOR_03="98AFB5"
-export BASE16_COLOR_04="8299A1"
-export BASE16_COLOR_05="6D828E"
-export BASE16_COLOR_06="5A6D7A"
-export BASE16_COLOR_07="485867"
-export BASE16_COLOR_08="b38686"
-export BASE16_COLOR_09="d8bba2"
-export BASE16_COLOR_0A="aab386"
-export BASE16_COLOR_0B="87b386"
-export BASE16_COLOR_0C="86b3b3"
-export BASE16_COLOR_0D="868cb3"
-export BASE16_COLOR_0E="b386b2"
-export BASE16_COLOR_0F="b39f9f"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "E3EFEF"
+let g:base16_color_01 = "C9DBDC"
+let g:base16_color_02 = "B0C5C8"
+let g:base16_color_03 = "98AFB5"
+let g:base16_color_04 = "8299A1"
+let g:base16_color_05 = "6D828E"
+let g:base16_color_06 = "5A6D7A"
+let g:base16_color_07 = "485867"
+let g:base16_color_08 = "b38686"
+let g:base16_color_09 = "d8bba2"
+let g:base16_color_0A = "aab386"
+let g:base16_color_0B = "87b386"
+let g:base16_color_0C = "86b3b3"
+let g:base16_color_0D = "868cb3"
+let g:base16_color_0E = "b386b2"
+let g:base16_color_0F = "b39f9f"
+EOF
 
 color00="E3/EF/EF" # Base 00 - Black
 color01="b3/86/86" # Base 08 - Red

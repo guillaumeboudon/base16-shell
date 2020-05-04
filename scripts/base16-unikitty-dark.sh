@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Unikitty Dark scheme by Josh W Lewis (@joshwlewis)
 
-export BASE16_COLOR_00="2e2a31"
-export BASE16_COLOR_01="4a464d"
-export BASE16_COLOR_02="666369"
-export BASE16_COLOR_03="838085"
-export BASE16_COLOR_04="9f9da2"
-export BASE16_COLOR_05="bcbabe"
-export BASE16_COLOR_06="d8d7da"
-export BASE16_COLOR_07="f5f4f7"
-export BASE16_COLOR_08="d8137f"
-export BASE16_COLOR_09="d65407"
-export BASE16_COLOR_0A="dc8a0e"
-export BASE16_COLOR_0B="17ad98"
-export BASE16_COLOR_0C="149bda"
-export BASE16_COLOR_0D="796af5"
-export BASE16_COLOR_0E="bb60ea"
-export BASE16_COLOR_0F="c720ca"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "2e2a31"
+let g:base16_color_01 = "4a464d"
+let g:base16_color_02 = "666369"
+let g:base16_color_03 = "838085"
+let g:base16_color_04 = "9f9da2"
+let g:base16_color_05 = "bcbabe"
+let g:base16_color_06 = "d8d7da"
+let g:base16_color_07 = "f5f4f7"
+let g:base16_color_08 = "d8137f"
+let g:base16_color_09 = "d65407"
+let g:base16_color_0A = "dc8a0e"
+let g:base16_color_0B = "17ad98"
+let g:base16_color_0C = "149bda"
+let g:base16_color_0D = "796af5"
+let g:base16_color_0E = "bb60ea"
+let g:base16_color_0F = "c720ca"
+EOF
 
 color00="2e/2a/31" # Base 00 - Black
 color01="d8/13/7f" # Base 08 - Red

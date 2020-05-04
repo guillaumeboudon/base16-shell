@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Sandcastle scheme by George Essig (https://github.com/gessig)
 
-export BASE16_COLOR_00="282c34"
-export BASE16_COLOR_01="2c323b"
-export BASE16_COLOR_02="3e4451"
-export BASE16_COLOR_03="665c54"
-export BASE16_COLOR_04="928374"
-export BASE16_COLOR_05="a89984"
-export BASE16_COLOR_06="d5c4a1"
-export BASE16_COLOR_07="fdf4c1"
-export BASE16_COLOR_08="83a598"
-export BASE16_COLOR_09="a07e3b"
-export BASE16_COLOR_0A="a07e3b"
-export BASE16_COLOR_0B="528b8b"
-export BASE16_COLOR_0C="83a598"
-export BASE16_COLOR_0D="83a598"
-export BASE16_COLOR_0E="d75f5f"
-export BASE16_COLOR_0F="a87322"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "282c34"
+let g:base16_color_01 = "2c323b"
+let g:base16_color_02 = "3e4451"
+let g:base16_color_03 = "665c54"
+let g:base16_color_04 = "928374"
+let g:base16_color_05 = "a89984"
+let g:base16_color_06 = "d5c4a1"
+let g:base16_color_07 = "fdf4c1"
+let g:base16_color_08 = "83a598"
+let g:base16_color_09 = "a07e3b"
+let g:base16_color_0A = "a07e3b"
+let g:base16_color_0B = "528b8b"
+let g:base16_color_0C = "83a598"
+let g:base16_color_0D = "83a598"
+let g:base16_color_0E = "d75f5f"
+let g:base16_color_0F = "a87322"
+EOF
 
 color00="28/2c/34" # Base 00 - Black
 color01="83/a5/98" # Base 08 - Red

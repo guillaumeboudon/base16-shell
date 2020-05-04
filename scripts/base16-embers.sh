@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Embers scheme by Jannik Siebert (https://github.com/janniks)
 
-export BASE16_COLOR_00="16130F"
-export BASE16_COLOR_01="2C2620"
-export BASE16_COLOR_02="433B32"
-export BASE16_COLOR_03="5A5047"
-export BASE16_COLOR_04="8A8075"
-export BASE16_COLOR_05="A39A90"
-export BASE16_COLOR_06="BEB6AE"
-export BASE16_COLOR_07="DBD6D1"
-export BASE16_COLOR_08="826D57"
-export BASE16_COLOR_09="828257"
-export BASE16_COLOR_0A="6D8257"
-export BASE16_COLOR_0B="57826D"
-export BASE16_COLOR_0C="576D82"
-export BASE16_COLOR_0D="6D5782"
-export BASE16_COLOR_0E="82576D"
-export BASE16_COLOR_0F="825757"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "16130F"
+let g:base16_color_01 = "2C2620"
+let g:base16_color_02 = "433B32"
+let g:base16_color_03 = "5A5047"
+let g:base16_color_04 = "8A8075"
+let g:base16_color_05 = "A39A90"
+let g:base16_color_06 = "BEB6AE"
+let g:base16_color_07 = "DBD6D1"
+let g:base16_color_08 = "826D57"
+let g:base16_color_09 = "828257"
+let g:base16_color_0A = "6D8257"
+let g:base16_color_0B = "57826D"
+let g:base16_color_0C = "576D82"
+let g:base16_color_0D = "6D5782"
+let g:base16_color_0E = "82576D"
+let g:base16_color_0F = "825757"
+EOF
 
 color00="16/13/0F" # Base 00 - Black
 color01="82/6D/57" # Base 08 - Red

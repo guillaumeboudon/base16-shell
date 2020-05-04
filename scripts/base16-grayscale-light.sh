@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Grayscale Light scheme by Alexandre Gavioli (https://github.com/Alexx2/)
 
-export BASE16_COLOR_00="f7f7f7"
-export BASE16_COLOR_01="e3e3e3"
-export BASE16_COLOR_02="b9b9b9"
-export BASE16_COLOR_03="ababab"
-export BASE16_COLOR_04="525252"
-export BASE16_COLOR_05="464646"
-export BASE16_COLOR_06="252525"
-export BASE16_COLOR_07="101010"
-export BASE16_COLOR_08="7c7c7c"
-export BASE16_COLOR_09="999999"
-export BASE16_COLOR_0A="a0a0a0"
-export BASE16_COLOR_0B="8e8e8e"
-export BASE16_COLOR_0C="868686"
-export BASE16_COLOR_0D="686868"
-export BASE16_COLOR_0E="747474"
-export BASE16_COLOR_0F="5e5e5e"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "f7f7f7"
+let g:base16_color_01 = "e3e3e3"
+let g:base16_color_02 = "b9b9b9"
+let g:base16_color_03 = "ababab"
+let g:base16_color_04 = "525252"
+let g:base16_color_05 = "464646"
+let g:base16_color_06 = "252525"
+let g:base16_color_07 = "101010"
+let g:base16_color_08 = "7c7c7c"
+let g:base16_color_09 = "999999"
+let g:base16_color_0A = "a0a0a0"
+let g:base16_color_0B = "8e8e8e"
+let g:base16_color_0C = "868686"
+let g:base16_color_0D = "686868"
+let g:base16_color_0E = "747474"
+let g:base16_color_0F = "5e5e5e"
+EOF
 
 color00="f7/f7/f7" # Base 00 - Black
 color01="7c/7c/7c" # Base 08 - Red

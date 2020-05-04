@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Material Vivid scheme by joshyrobot
 
-export BASE16_COLOR_00="202124"
-export BASE16_COLOR_01="27292c"
-export BASE16_COLOR_02="323639"
-export BASE16_COLOR_03="44464d"
-export BASE16_COLOR_04="676c71"
-export BASE16_COLOR_05="80868b"
-export BASE16_COLOR_06="9e9e9e"
-export BASE16_COLOR_07="ffffff"
-export BASE16_COLOR_08="f44336"
-export BASE16_COLOR_09="ff9800"
-export BASE16_COLOR_0A="ffeb3b"
-export BASE16_COLOR_0B="00e676"
-export BASE16_COLOR_0C="00bcd4"
-export BASE16_COLOR_0D="2196f3"
-export BASE16_COLOR_0E="673ab7"
-export BASE16_COLOR_0F="8d6e63"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "202124"
+let g:base16_color_01 = "27292c"
+let g:base16_color_02 = "323639"
+let g:base16_color_03 = "44464d"
+let g:base16_color_04 = "676c71"
+let g:base16_color_05 = "80868b"
+let g:base16_color_06 = "9e9e9e"
+let g:base16_color_07 = "ffffff"
+let g:base16_color_08 = "f44336"
+let g:base16_color_09 = "ff9800"
+let g:base16_color_0A = "ffeb3b"
+let g:base16_color_0B = "00e676"
+let g:base16_color_0C = "00bcd4"
+let g:base16_color_0D = "2196f3"
+let g:base16_color_0E = "673ab7"
+let g:base16_color_0F = "8d6e63"
+EOF
 
 color00="20/21/24" # Base 00 - Black
 color01="f4/43/36" # Base 08 - Red

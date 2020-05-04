@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # summercamp scheme by zoe firi (zoefiri.github.io)
 
-export BASE16_COLOR_00="1c1810"
-export BASE16_COLOR_01="2a261c"
-export BASE16_COLOR_02="3a3527"
-export BASE16_COLOR_03="504b38"
-export BASE16_COLOR_04="5f5b45"
-export BASE16_COLOR_05="736e55"
-export BASE16_COLOR_06="bab696"
-export BASE16_COLOR_07="f8f5de"
-export BASE16_COLOR_08="e35142"
-export BASE16_COLOR_09="fba11b"
-export BASE16_COLOR_0A="f2ff27"
-export BASE16_COLOR_0B="5ceb5a"
-export BASE16_COLOR_0C="5aebbc"
-export BASE16_COLOR_0D="489bf0"
-export BASE16_COLOR_0E="FF8080"
-export BASE16_COLOR_0F="F69BE7"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1c1810"
+let g:base16_color_01 = "2a261c"
+let g:base16_color_02 = "3a3527"
+let g:base16_color_03 = "504b38"
+let g:base16_color_04 = "5f5b45"
+let g:base16_color_05 = "736e55"
+let g:base16_color_06 = "bab696"
+let g:base16_color_07 = "f8f5de"
+let g:base16_color_08 = "e35142"
+let g:base16_color_09 = "fba11b"
+let g:base16_color_0A = "f2ff27"
+let g:base16_color_0B = "5ceb5a"
+let g:base16_color_0C = "5aebbc"
+let g:base16_color_0D = "489bf0"
+let g:base16_color_0E = "FF8080"
+let g:base16_color_0F = "F69BE7"
+EOF
 
 color00="1c/18/10" # Base 00 - Black
 color01="e3/51/42" # Base 08 - Red

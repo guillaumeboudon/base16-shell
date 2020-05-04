@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Synth Midnight Dark scheme by Michaël Ball (http://github.com/michael-ball/)
 
-export BASE16_COLOR_00="040404"
-export BASE16_COLOR_01="141414"
-export BASE16_COLOR_02="242424"
-export BASE16_COLOR_03="61507A"
-export BASE16_COLOR_04="BFBBBF"
-export BASE16_COLOR_05="DFDBDF"
-export BASE16_COLOR_06="EFEBEF"
-export BASE16_COLOR_07="FFFBFF"
-export BASE16_COLOR_08="B53B50"
-export BASE16_COLOR_09="E4600E"
-export BASE16_COLOR_0A="DAE84D"
-export BASE16_COLOR_0B="06EA61"
-export BASE16_COLOR_0C="7CEDE9"
-export BASE16_COLOR_0D="03AEFF"
-export BASE16_COLOR_0E="EA5CE2"
-export BASE16_COLOR_0F="9D4D0E"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "040404"
+let g:base16_color_01 = "141414"
+let g:base16_color_02 = "242424"
+let g:base16_color_03 = "61507A"
+let g:base16_color_04 = "BFBBBF"
+let g:base16_color_05 = "DFDBDF"
+let g:base16_color_06 = "EFEBEF"
+let g:base16_color_07 = "FFFBFF"
+let g:base16_color_08 = "B53B50"
+let g:base16_color_09 = "E4600E"
+let g:base16_color_0A = "DAE84D"
+let g:base16_color_0B = "06EA61"
+let g:base16_color_0C = "7CEDE9"
+let g:base16_color_0D = "03AEFF"
+let g:base16_color_0E = "EA5CE2"
+let g:base16_color_0F = "9D4D0E"
+EOF
 
 color00="04/04/04" # Base 00 - Black
 color01="B5/3B/50" # Base 08 - Red

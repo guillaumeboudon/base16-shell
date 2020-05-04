@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Atlas scheme by Alex Lende (https://ajlende.com)
 
-export BASE16_COLOR_00="002635"
-export BASE16_COLOR_01="00384d"
-export BASE16_COLOR_02="517F8D"
-export BASE16_COLOR_03="6C8B91"
-export BASE16_COLOR_04="869696"
-export BASE16_COLOR_05="a1a19a"
-export BASE16_COLOR_06="e6e6dc"
-export BASE16_COLOR_07="fafaf8"
-export BASE16_COLOR_08="ff5a67"
-export BASE16_COLOR_09="f08e48"
-export BASE16_COLOR_0A="ffcc1b"
-export BASE16_COLOR_0B="7fc06e"
-export BASE16_COLOR_0C="14747e"
-export BASE16_COLOR_0D="5dd7b9"
-export BASE16_COLOR_0E="9a70a4"
-export BASE16_COLOR_0F="c43060"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "002635"
+let g:base16_color_01 = "00384d"
+let g:base16_color_02 = "517F8D"
+let g:base16_color_03 = "6C8B91"
+let g:base16_color_04 = "869696"
+let g:base16_color_05 = "a1a19a"
+let g:base16_color_06 = "e6e6dc"
+let g:base16_color_07 = "fafaf8"
+let g:base16_color_08 = "ff5a67"
+let g:base16_color_09 = "f08e48"
+let g:base16_color_0A = "ffcc1b"
+let g:base16_color_0B = "7fc06e"
+let g:base16_color_0C = "14747e"
+let g:base16_color_0D = "5dd7b9"
+let g:base16_color_0E = "9a70a4"
+let g:base16_color_0F = "c43060"
+EOF
 
 color00="00/26/35" # Base 00 - Black
 color01="ff/5a/67" # Base 08 - Red

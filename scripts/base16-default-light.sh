@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Default Light scheme by Chris Kempson (http://chriskempson.com)
 
-export BASE16_COLOR_00="f8f8f8"
-export BASE16_COLOR_01="e8e8e8"
-export BASE16_COLOR_02="d8d8d8"
-export BASE16_COLOR_03="b8b8b8"
-export BASE16_COLOR_04="585858"
-export BASE16_COLOR_05="383838"
-export BASE16_COLOR_06="282828"
-export BASE16_COLOR_07="181818"
-export BASE16_COLOR_08="ab4642"
-export BASE16_COLOR_09="dc9656"
-export BASE16_COLOR_0A="f7ca88"
-export BASE16_COLOR_0B="a1b56c"
-export BASE16_COLOR_0C="86c1b9"
-export BASE16_COLOR_0D="7cafc2"
-export BASE16_COLOR_0E="ba8baf"
-export BASE16_COLOR_0F="a16946"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "f8f8f8"
+let g:base16_color_01 = "e8e8e8"
+let g:base16_color_02 = "d8d8d8"
+let g:base16_color_03 = "b8b8b8"
+let g:base16_color_04 = "585858"
+let g:base16_color_05 = "383838"
+let g:base16_color_06 = "282828"
+let g:base16_color_07 = "181818"
+let g:base16_color_08 = "ab4642"
+let g:base16_color_09 = "dc9656"
+let g:base16_color_0A = "f7ca88"
+let g:base16_color_0B = "a1b56c"
+let g:base16_color_0C = "86c1b9"
+let g:base16_color_0D = "7cafc2"
+let g:base16_color_0E = "ba8baf"
+let g:base16_color_0F = "a16946"
+EOF
 
 color00="f8/f8/f8" # Base 00 - Black
 color01="ab/46/42" # Base 08 - Red

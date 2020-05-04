@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Dark Violet scheme by ruler501 (https://github.com/ruler501/base16-darkviolet)
 
-export BASE16_COLOR_00="000000"
-export BASE16_COLOR_01="231a40"
-export BASE16_COLOR_02="432d59"
-export BASE16_COLOR_03="593380"
-export BASE16_COLOR_04="00ff00"
-export BASE16_COLOR_05="b08ae6"
-export BASE16_COLOR_06="9045e6"
-export BASE16_COLOR_07="a366ff"
-export BASE16_COLOR_08="a82ee6"
-export BASE16_COLOR_09="bb66cc"
-export BASE16_COLOR_0A="f29df2"
-export BASE16_COLOR_0B="4595e6"
-export BASE16_COLOR_0C="40dfff"
-export BASE16_COLOR_0D="4136d9"
-export BASE16_COLOR_0E="7e5ce6"
-export BASE16_COLOR_0F="a886bf"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "000000"
+let g:base16_color_01 = "231a40"
+let g:base16_color_02 = "432d59"
+let g:base16_color_03 = "593380"
+let g:base16_color_04 = "00ff00"
+let g:base16_color_05 = "b08ae6"
+let g:base16_color_06 = "9045e6"
+let g:base16_color_07 = "a366ff"
+let g:base16_color_08 = "a82ee6"
+let g:base16_color_09 = "bb66cc"
+let g:base16_color_0A = "f29df2"
+let g:base16_color_0B = "4595e6"
+let g:base16_color_0C = "40dfff"
+let g:base16_color_0D = "4136d9"
+let g:base16_color_0E = "7e5ce6"
+let g:base16_color_0F = "a886bf"
+EOF
 
 color00="00/00/00" # Base 00 - Black
 color01="a8/2e/e6" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Nova scheme by George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
 
-export BASE16_COLOR_00="3C4C55"
-export BASE16_COLOR_01="556873"
-export BASE16_COLOR_02="6A7D89"
-export BASE16_COLOR_03="899BA6"
-export BASE16_COLOR_04="899BA6"
-export BASE16_COLOR_05="C5D4DD"
-export BASE16_COLOR_06="899BA6"
-export BASE16_COLOR_07="556873"
-export BASE16_COLOR_08="83AFE5"
-export BASE16_COLOR_09="7FC1CA"
-export BASE16_COLOR_0A="A8CE93"
-export BASE16_COLOR_0B="7FC1CA"
-export BASE16_COLOR_0C="F2C38F"
-export BASE16_COLOR_0D="83AFE5"
-export BASE16_COLOR_0E="9A93E1"
-export BASE16_COLOR_0F="F2C38F"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "3C4C55"
+let g:base16_color_01 = "556873"
+let g:base16_color_02 = "6A7D89"
+let g:base16_color_03 = "899BA6"
+let g:base16_color_04 = "899BA6"
+let g:base16_color_05 = "C5D4DD"
+let g:base16_color_06 = "899BA6"
+let g:base16_color_07 = "556873"
+let g:base16_color_08 = "83AFE5"
+let g:base16_color_09 = "7FC1CA"
+let g:base16_color_0A = "A8CE93"
+let g:base16_color_0B = "7FC1CA"
+let g:base16_color_0C = "F2C38F"
+let g:base16_color_0D = "83AFE5"
+let g:base16_color_0E = "9A93E1"
+let g:base16_color_0F = "F2C38F"
+EOF
 
 color00="3C/4C/55" # Base 00 - Black
 color01="83/AF/E5" # Base 08 - Red

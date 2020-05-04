@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Apathy scheme by Jannik Siebert (https://github.com/janniks)
 
-export BASE16_COLOR_00="031A16"
-export BASE16_COLOR_01="0B342D"
-export BASE16_COLOR_02="184E45"
-export BASE16_COLOR_03="2B685E"
-export BASE16_COLOR_04="5F9C92"
-export BASE16_COLOR_05="81B5AC"
-export BASE16_COLOR_06="A7CEC8"
-export BASE16_COLOR_07="D2E7E4"
-export BASE16_COLOR_08="3E9688"
-export BASE16_COLOR_09="3E7996"
-export BASE16_COLOR_0A="3E4C96"
-export BASE16_COLOR_0B="883E96"
-export BASE16_COLOR_0C="963E4C"
-export BASE16_COLOR_0D="96883E"
-export BASE16_COLOR_0E="4C963E"
-export BASE16_COLOR_0F="3E965B"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "031A16"
+let g:base16_color_01 = "0B342D"
+let g:base16_color_02 = "184E45"
+let g:base16_color_03 = "2B685E"
+let g:base16_color_04 = "5F9C92"
+let g:base16_color_05 = "81B5AC"
+let g:base16_color_06 = "A7CEC8"
+let g:base16_color_07 = "D2E7E4"
+let g:base16_color_08 = "3E9688"
+let g:base16_color_09 = "3E7996"
+let g:base16_color_0A = "3E4C96"
+let g:base16_color_0B = "883E96"
+let g:base16_color_0C = "963E4C"
+let g:base16_color_0D = "96883E"
+let g:base16_color_0E = "4C963E"
+let g:base16_color_0F = "3E965B"
+EOF
 
 color00="03/1A/16" # Base 00 - Black
 color01="3E/96/88" # Base 08 - Red

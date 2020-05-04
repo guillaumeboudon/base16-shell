@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Seti UI scheme by 
 
-export BASE16_COLOR_00="151718"
-export BASE16_COLOR_01="282a2b"
-export BASE16_COLOR_02="3B758C"
-export BASE16_COLOR_03="41535B"
-export BASE16_COLOR_04="43a5d5"
-export BASE16_COLOR_05="d6d6d6"
-export BASE16_COLOR_06="eeeeee"
-export BASE16_COLOR_07="ffffff"
-export BASE16_COLOR_08="Cd3f45"
-export BASE16_COLOR_09="db7b55"
-export BASE16_COLOR_0A="e6cd69"
-export BASE16_COLOR_0B="9fca56"
-export BASE16_COLOR_0C="55dbbe"
-export BASE16_COLOR_0D="55b5db"
-export BASE16_COLOR_0E="a074c4"
-export BASE16_COLOR_0F="8a553f"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "151718"
+let g:base16_color_01 = "282a2b"
+let g:base16_color_02 = "3B758C"
+let g:base16_color_03 = "41535B"
+let g:base16_color_04 = "43a5d5"
+let g:base16_color_05 = "d6d6d6"
+let g:base16_color_06 = "eeeeee"
+let g:base16_color_07 = "ffffff"
+let g:base16_color_08 = "Cd3f45"
+let g:base16_color_09 = "db7b55"
+let g:base16_color_0A = "e6cd69"
+let g:base16_color_0B = "9fca56"
+let g:base16_color_0C = "55dbbe"
+let g:base16_color_0D = "55b5db"
+let g:base16_color_0E = "a074c4"
+let g:base16_color_0F = "8a553f"
+EOF
 
 color00="15/17/18" # Base 00 - Black
 color01="Cd/3f/45" # Base 08 - Red

@@ -3,22 +3,24 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Horizon Dark scheme by Michaël Ball (http://github.com/michael-ball/)
 
-export BASE16_COLOR_00="1C1E26"
-export BASE16_COLOR_01="232530"
-export BASE16_COLOR_02="2E303E"
-export BASE16_COLOR_03="6F6F70"
-export BASE16_COLOR_04="9DA0A2"
-export BASE16_COLOR_05="CBCED0"
-export BASE16_COLOR_06="DCDFE4"
-export BASE16_COLOR_07="E3E6EE"
-export BASE16_COLOR_08="E93C58"
-export BASE16_COLOR_09="E58D7D"
-export BASE16_COLOR_0A="EFB993"
-export BASE16_COLOR_0B="EFAF8E"
-export BASE16_COLOR_0C="24A8B4"
-export BASE16_COLOR_0D="DF5273"
-export BASE16_COLOR_0E="B072D1"
-export BASE16_COLOR_0F="E4A382"
+tee "${BASE16_VIM_FILE:-"$HOME/.base16_colors.vim"}" << EOF > /dev/null
+let g:base16_color_00 = "1C1E26"
+let g:base16_color_01 = "232530"
+let g:base16_color_02 = "2E303E"
+let g:base16_color_03 = "6F6F70"
+let g:base16_color_04 = "9DA0A2"
+let g:base16_color_05 = "CBCED0"
+let g:base16_color_06 = "DCDFE4"
+let g:base16_color_07 = "E3E6EE"
+let g:base16_color_08 = "E93C58"
+let g:base16_color_09 = "E58D7D"
+let g:base16_color_0A = "EFB993"
+let g:base16_color_0B = "EFAF8E"
+let g:base16_color_0C = "24A8B4"
+let g:base16_color_0D = "DF5273"
+let g:base16_color_0E = "B072D1"
+let g:base16_color_0F = "E4A382"
+EOF
 
 color00="1C/1E/26" # Base 00 - Black
 color01="E9/3C/58" # Base 08 - Red
